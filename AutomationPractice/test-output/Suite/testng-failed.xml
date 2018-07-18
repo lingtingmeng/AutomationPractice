@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Automation Practice Test(failed)">
+    <classes>
+      <class name="com.ui.test.TestLogin">
+        <methods>
+          <include name="initialiseBrowser"/>
+          <include name="afterClass"/>
+          <include name="beforeCls"/>
+          <include name="loginWithIncorrectPwd"/>
+          <include name="closeBrowser"/>
+          <include name="loginWithInvalidEmail"/>
+        </methods>
+      </class> <!-- com.ui.test.TestLogin -->
+    </classes>
+  </test> <!-- Automation Practice Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

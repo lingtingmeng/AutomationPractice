@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="36529" started-at="2018-07-18T01:23:09Z" finished-at="2018-07-18T01:23:46Z">
+    <groups>
+    </groups>
+    <test name="Automation Practice Test" duration-ms="36529" started-at="2018-07-18T01:23:09Z" finished-at="2018-07-18T01:23:46Z">
+      <class name="com.ui.test.TestLogin">
+        <test-method status="PASS" signature="initialiseBrowser()[pri:0, instance:com.ui.test.TestLogin@6d4b1c02]" name="initialiseBrowser" is-config="true" duration-ms="2724" started-at="2018-07-17T21:23:09Z" finished-at="2018-07-17T21:23:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseBrowser -->
+        <test-method status="PASS" signature="beforeCls()[pri:0, instance:com.ui.test.TestLogin@6d4b1c02]" name="beforeCls" is-config="true" duration-ms="1" started-at="2018-07-17T21:23:12Z" finished-at="2018-07-17T21:23:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeCls -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.ui.test.TestLogin@6d4b1c02]" name="login" duration-ms="6763" started-at="2018-07-17T21:23:12Z" finished-at="2018-07-17T21:23:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="loginForgotPwdLink()[pri:0, instance:com.ui.test.TestLogin@6d4b1c02]" name="loginForgotPwdLink" duration-ms="1789" started-at="2018-07-17T21:23:19Z" finished-at="2018-07-17T21:23:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginForgotPwdLink -->
+        <test-method status="PASS" signature="loginWithEmptyEmail()[pri:0, instance:com.ui.test.TestLogin@6d4b1c02]" name="loginWithEmptyEmail" duration-ms="3222" started-at="2018-07-17T21:23:21Z" finished-at="2018-07-17T21:23:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithEmptyEmail -->
+        <test-method status="PASS" signature="loginWithEmptyEmailAndPwd()[pri:0, instance:com.ui.test.TestLogin@6d4b1c02]" name="loginWithEmptyEmailAndPwd" duration-ms="6354" started-at="2018-07-17T21:23:24Z" finished-at="2018-07-17T21:23:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithEmptyEmailAndPwd -->
+        <test-method status="PASS" signature="loginWithEmptyPwd()[pri:0, instance:com.ui.test.TestLogin@6d4b1c02]" name="loginWithEmptyPwd" duration-ms="3966" started-at="2018-07-17T21:23:30Z" finished-at="2018-07-17T21:23:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithEmptyPwd -->
+        <test-method status="PASS" signature="loginWithIncorrectPwd()[pri:0, instance:com.ui.test.TestLogin@6d4b1c02]" name="loginWithIncorrectPwd" duration-ms="3730" started-at="2018-07-17T21:23:34Z" finished-at="2018-07-17T21:23:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithIncorrectPwd -->
+        <test-method status="PASS" signature="loginWithInvalidEmail()[pri:0, instance:com.ui.test.TestLogin@6d4b1c02]" name="loginWithInvalidEmail" duration-ms="3901" started-at="2018-07-17T21:23:38Z" finished-at="2018-07-17T21:23:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidEmail -->
+        <test-method status="PASS" signature="loginWithInvalidEmailNoPwd()[pri:0, instance:com.ui.test.TestLogin@6d4b1c02]" name="loginWithInvalidEmailNoPwd" duration-ms="3880" started-at="2018-07-17T21:23:42Z" finished-at="2018-07-17T21:23:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidEmailNoPwd -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ui.test.TestLogin@6d4b1c02]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-07-17T21:23:46Z" finished-at="2018-07-17T21:23:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.ui.test.TestLogin@6d4b1c02]" name="closeBrowser" is-config="true" duration-ms="131" started-at="2018-07-17T21:23:46Z" finished-at="2018-07-17T21:23:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.ui.test.TestLogin -->
+    </test> <!-- Automation Practice Test -->
+  </suite> <!-- Suite -->
+</testng-results>
