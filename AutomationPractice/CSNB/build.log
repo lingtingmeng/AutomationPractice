@@ -1,0 +1,1213 @@
+Build sequence for target(s) `email-report' is [delete-dir, create, compile, testng-execution, email-report]
+Complete build sequence is [delete-dir, create, compile, testng-execution, email-report, ]
+
+delete-dir:
+   [delete] Deleting directory /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/test/DebugTestCaseVerifyLedger.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/test/DebugTestCase.class
+   [delete] Deleting directory /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/test
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/smoke/C5484_quickTradeCadUsd.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/smoke/C5479_loginLogout.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/smoke/C5485_quickTradeBtcLtc.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/smoke/C5483_quickTradeCadBtc.class
+   [delete] Deleting directory /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/smoke
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/dashboard/quicktrade/C5529_DogeBch.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/dashboard/quicktrade/C5505_CadBch.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/dashboard/quicktrade/C5507_CadUsd.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/dashboard/quicktrade/C5508_BtcLtc.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/dashboard/quicktrade/percent/C5517_UsdEth_50Percent.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/dashboard/quicktrade/percent/C5518_UsdLtc_100Percent.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/dashboard/quicktrade/percent/C5511_UsdBtc_25Percent.class
+   [delete] Deleting directory /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/dashboard/quicktrade/percent
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/dashboard/quicktrade/C5525_BtcDash.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/dashboard/quicktrade/C5522_BtcEth.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/dashboard/quicktrade/C5502_CadEth.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/dashboard/quicktrade/C5523_BtcBch.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/dashboard/quicktrade/C5524_BtcDoge.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/dashboard/quicktrade/C5506_CadBtc.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/dashboard/quicktrade/C5504_CadDoge.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/dashboard/quicktrade/C5503_CadLtc.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/dashboard/quicktrade/C5510_CadDash.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/dashboard/quicktrade/C5528_LtcEth.class
+   [delete] Deleting directory /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/dashboard/quicktrade
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/dashboard/C5479_loginLogout.class
+   [delete] Deleting directory /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/dashboard
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/tmp/C5521_UsdDoge_50Percent.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/tmp/C5519_UsdDash_100Percent.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/tmp/C5520_UsdBch_25Percent.class
+   [delete] Deleting directory /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/tmp
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/NbEntry.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/webpage/C8897_TermsAndConditions.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/webpage/C8882_HomePage.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/webpage/C8898_PrivacyPolicy.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/webpage/C8896_TradingFees.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/webpage/C8887_HowItWorks.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/webpage/C8899_AMLPolicy.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/webpage/C8894_FundingOptions.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/webpage/C8895_About.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/webpage/tmp/C8889_AccountRegistration.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/webpage/tmp/C8890_AccountRegistration_Wealth.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/webpage/tmp/C8892_CurrencyConverter.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/webpage/tmp/C8891_Markets.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/webpage/tmp/C8888_AccountLogin.class
+   [delete] Deleting directory /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/webpage/tmp
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/webpage/C8893_Contact.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/webpage/C8886_WealthPage.class
+   [delete] Deleting directory /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb/webpage
+   [delete] Deleting directory /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test/nb
+   [delete] Deleting directory /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/test
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/util/WebInfoUtil.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/util/WebUtil.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/util/WebDriverFactory.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/util/WebDriverFactory$BrowserType.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/util/WebDriverFactory$1.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/util/WebDriverUtil.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/util/WebDriverBase.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/util/WebOsUtil.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/util/WebActionUtil.class
+   [delete] Deleting directory /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/util
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/report/NBReportListener$1.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/report/ExtReportListener.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/report/NBReportListener.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/report/NBReportListener$TestSorter.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/report/NBReportListenerAdaptor.class
+   [delete] Deleting directory /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/report
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/feature/Login.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/feature/Logout.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/feature/Holdings.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/feature/Transactions.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/feature/Dashboard.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/feature/QuickTrade.class
+   [delete] Deleting directory /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui/feature
+   [delete] Deleting directory /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ui
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ks/util/KSU.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ks/util/KSLoadInfo.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ks/util/KSLoad.class
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ks/util/KSSendEmail.class
+   [delete] Deleting directory /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ks/util
+   [delete] Deleting directory /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs/ks
+   [delete] Deleting directory /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com/cs
+   [delete] Deleting directory /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin/com
+   [delete] Deleting directory /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin
+   [delete] Deleting directory /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/skipped.png
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/index.html
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/testng-results.xml
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/junitreports/TEST-com.cs.ui.test.nb.webpage.tmp.C8890_AccountRegistration_Wealth.xml
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/junitreports/TEST-com.cs.ui.test.nb.webpage.C8895_About.xml
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/junitreports/TEST-com.cs.ui.test.nb.webpage.C8886_WealthPage.xml
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/junitreports/TEST-com.cs.ui.test.nb.webpage.C8897_TermsAndConditions.xml
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/junitreports/TEST-com.cs.ui.test.nb.webpage.tmp.C8892_CurrencyConverter.xml
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/junitreports/TEST-com.cs.ui.test.nb.webpage.C8896_TradingFees.xml
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/junitreports/TEST-com.cs.ui.test.nb.webpage.tmp.C8891_Markets.xml
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/junitreports/TEST-com.cs.ui.test.nb.webpage.tmp.C8888_AccountLogin.xml
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/junitreports/TEST-com.cs.ui.test.nb.webpage.C8882_HomePage.xml
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/junitreports/TEST-com.cs.ui.test.nb.webpage.C8887_HowItWorks.xml
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/junitreports/TEST-com.cs.ui.test.nb.webpage.C8894_FundingOptions.xml
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/junitreports/TEST-com.cs.ui.test.nb.webpage.C8899_AMLPolicy.xml
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/junitreports/TEST-com.cs.ui.test.nb.webpage.C8898_PrivacyPolicy.xml
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/junitreports/TEST-com.cs.ui.test.nb.webpage.C8893_Contact.xml
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/junitreports/TEST-com.cs.ui.test.nb.webpage.tmp.C8889_AccountRegistration.xml
+   [delete] Deleting directory /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/junitreports
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/failed.png
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/bullet_point.png
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/old/index.html
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/old/Suite/index.html
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/old/Suite/toc.html
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/old/Suite/groups.html
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/old/Suite/methods-not-run.html
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/old/Suite/reporter-output.html
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/old/Suite/methods.html
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/old/Suite/main.html
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/old/Suite/classes.html
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/old/Suite/methods-alphabetical.html
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/old/Suite/testng.xml.html
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/old/Suite/Coinsquare NB Test.properties
+   [delete] Deleting directory /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/old/Suite
+   [delete] Deleting directory /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/old
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/testng-failed.xml
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/navigator-bullet.png
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/emailable-report.html
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/testng-reports.css
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/jquery-1.7.1.min.js
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/passed.png
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/testng-reports.js
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/collapseall.gif
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/Suite/Coinsquare NB Test.xml
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/Suite/testng-failed.xml
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/Suite/Coinsquare NB Test.html
+   [delete] Deleting directory /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/Suite
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/testng.css
+   [delete] Deleting /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport/coinsquare-nb-report.html
+   [delete] Deleting directory /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport
+   [delete] Deleting directory /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report
+delete-dir:  duration 0 seconds
+
+create:
+    [mkdir] Created dir: /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin
+    [mkdir] Created dir: /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report
+create:  duration 0 seconds
+
+compile:
+    [javac] com/cs/ks/util/KSLoad.java added as com/cs/ks/util/KSLoad.class doesn't exist.
+    [javac] com/cs/ks/util/KSLoadInfo.java added as com/cs/ks/util/KSLoadInfo.class doesn't exist.
+    [javac] com/cs/ks/util/KSSendEmail.java added as com/cs/ks/util/KSSendEmail.class doesn't exist.
+    [javac] com/cs/ks/util/KSU.java added as com/cs/ks/util/KSU.class doesn't exist.
+    [javac] com/cs/ui/feature/Dashboard.java added as com/cs/ui/feature/Dashboard.class doesn't exist.
+    [javac] com/cs/ui/feature/Holdings.java added as com/cs/ui/feature/Holdings.class doesn't exist.
+    [javac] com/cs/ui/feature/Login.java added as com/cs/ui/feature/Login.class doesn't exist.
+    [javac] com/cs/ui/feature/Logout.java added as com/cs/ui/feature/Logout.class doesn't exist.
+    [javac] com/cs/ui/feature/QuickTrade.java added as com/cs/ui/feature/QuickTrade.class doesn't exist.
+    [javac] com/cs/ui/feature/Transactions.java added as com/cs/ui/feature/Transactions.class doesn't exist.
+    [javac] com/cs/ui/report/ExtReportListener.java added as com/cs/ui/report/ExtReportListener.class doesn't exist.
+    [javac] com/cs/ui/report/NBReportListener.java added as com/cs/ui/report/NBReportListener.class doesn't exist.
+    [javac] com/cs/ui/report/NBReportListenerAdaptor.java added as com/cs/ui/report/NBReportListenerAdaptor.class doesn't exist.
+    [javac] com/cs/ui/test/nb/NbEntry.java added as com/cs/ui/test/nb/NbEntry.class doesn't exist.
+    [javac] com/cs/ui/test/nb/dashboard/C5479_loginLogout.java added as com/cs/ui/test/nb/dashboard/C5479_loginLogout.class doesn't exist.
+    [javac] com/cs/ui/test/nb/dashboard/quicktrade/C5502_CadEth.java added as com/cs/ui/test/nb/dashboard/quicktrade/C5502_CadEth.class doesn't exist.
+    [javac] com/cs/ui/test/nb/dashboard/quicktrade/C5503_CadLtc.java added as com/cs/ui/test/nb/dashboard/quicktrade/C5503_CadLtc.class doesn't exist.
+    [javac] com/cs/ui/test/nb/dashboard/quicktrade/C5504_CadDoge.java added as com/cs/ui/test/nb/dashboard/quicktrade/C5504_CadDoge.class doesn't exist.
+    [javac] com/cs/ui/test/nb/dashboard/quicktrade/C5505_CadBch.java added as com/cs/ui/test/nb/dashboard/quicktrade/C5505_CadBch.class doesn't exist.
+    [javac] com/cs/ui/test/nb/dashboard/quicktrade/C5506_CadBtc.java added as com/cs/ui/test/nb/dashboard/quicktrade/C5506_CadBtc.class doesn't exist.
+    [javac] com/cs/ui/test/nb/dashboard/quicktrade/C5507_CadUsd.java added as com/cs/ui/test/nb/dashboard/quicktrade/C5507_CadUsd.class doesn't exist.
+    [javac] com/cs/ui/test/nb/dashboard/quicktrade/C5508_BtcLtc.java added as com/cs/ui/test/nb/dashboard/quicktrade/C5508_BtcLtc.class doesn't exist.
+    [javac] com/cs/ui/test/nb/dashboard/quicktrade/C5510_CadDash.java added as com/cs/ui/test/nb/dashboard/quicktrade/C5510_CadDash.class doesn't exist.
+    [javac] com/cs/ui/test/nb/dashboard/quicktrade/C5522_BtcEth.java added as com/cs/ui/test/nb/dashboard/quicktrade/C5522_BtcEth.class doesn't exist.
+    [javac] com/cs/ui/test/nb/dashboard/quicktrade/C5523_BtcBch.java added as com/cs/ui/test/nb/dashboard/quicktrade/C5523_BtcBch.class doesn't exist.
+    [javac] com/cs/ui/test/nb/dashboard/quicktrade/C5524_BtcDoge.java added as com/cs/ui/test/nb/dashboard/quicktrade/C5524_BtcDoge.class doesn't exist.
+    [javac] com/cs/ui/test/nb/dashboard/quicktrade/C5525_BtcDash.java added as com/cs/ui/test/nb/dashboard/quicktrade/C5525_BtcDash.class doesn't exist.
+    [javac] com/cs/ui/test/nb/dashboard/quicktrade/C5528_LtcEth.java added as com/cs/ui/test/nb/dashboard/quicktrade/C5528_LtcEth.class doesn't exist.
+    [javac] com/cs/ui/test/nb/dashboard/quicktrade/C5529_DogeBch.java added as com/cs/ui/test/nb/dashboard/quicktrade/C5529_DogeBch.class doesn't exist.
+    [javac] com/cs/ui/test/nb/dashboard/quicktrade/percent/C5511_UsdBtc_25Percent.java added as com/cs/ui/test/nb/dashboard/quicktrade/percent/C5511_UsdBtc_25Percent.class doesn't exist.
+    [javac] com/cs/ui/test/nb/dashboard/quicktrade/percent/C5517_UsdEth_50Percent.java added as com/cs/ui/test/nb/dashboard/quicktrade/percent/C5517_UsdEth_50Percent.class doesn't exist.
+    [javac] com/cs/ui/test/nb/dashboard/quicktrade/percent/C5518_UsdLtc_100Percent.java added as com/cs/ui/test/nb/dashboard/quicktrade/percent/C5518_UsdLtc_100Percent.class doesn't exist.
+    [javac] com/cs/ui/test/nb/tmp/C5519_UsdDash_100Percent.java added as com/cs/ui/test/nb/tmp/C5519_UsdDash_100Percent.class doesn't exist.
+    [javac] com/cs/ui/test/nb/tmp/C5520_UsdBch_25Percent.java added as com/cs/ui/test/nb/tmp/C5520_UsdBch_25Percent.class doesn't exist.
+    [javac] com/cs/ui/test/nb/tmp/C5521_UsdDoge_50Percent.java added as com/cs/ui/test/nb/tmp/C5521_UsdDoge_50Percent.class doesn't exist.
+    [javac] com/cs/ui/test/nb/webpage/C8882_HomePage.java added as com/cs/ui/test/nb/webpage/C8882_HomePage.class doesn't exist.
+    [javac] com/cs/ui/test/nb/webpage/C8886_WealthPage.java added as com/cs/ui/test/nb/webpage/C8886_WealthPage.class doesn't exist.
+    [javac] com/cs/ui/test/nb/webpage/C8887_HowItWorks.java added as com/cs/ui/test/nb/webpage/C8887_HowItWorks.class doesn't exist.
+    [javac] com/cs/ui/test/nb/webpage/C8893_Contact.java added as com/cs/ui/test/nb/webpage/C8893_Contact.class doesn't exist.
+    [javac] com/cs/ui/test/nb/webpage/C8894_FundingOptions.java added as com/cs/ui/test/nb/webpage/C8894_FundingOptions.class doesn't exist.
+    [javac] com/cs/ui/test/nb/webpage/C8895_About.java added as com/cs/ui/test/nb/webpage/C8895_About.class doesn't exist.
+    [javac] com/cs/ui/test/nb/webpage/C8896_TradingFees.java added as com/cs/ui/test/nb/webpage/C8896_TradingFees.class doesn't exist.
+    [javac] com/cs/ui/test/nb/webpage/C8897_TermsAndConditions.java added as com/cs/ui/test/nb/webpage/C8897_TermsAndConditions.class doesn't exist.
+    [javac] com/cs/ui/test/nb/webpage/C8898_PrivacyPolicy.java added as com/cs/ui/test/nb/webpage/C8898_PrivacyPolicy.class doesn't exist.
+    [javac] com/cs/ui/test/nb/webpage/C8899_AMLPolicy.java added as com/cs/ui/test/nb/webpage/C8899_AMLPolicy.class doesn't exist.
+    [javac] com/cs/ui/test/nb/webpage/tmp/C8888_AccountLogin.java added as com/cs/ui/test/nb/webpage/tmp/C8888_AccountLogin.class doesn't exist.
+    [javac] com/cs/ui/test/nb/webpage/tmp/C8889_AccountRegistration.java added as com/cs/ui/test/nb/webpage/tmp/C8889_AccountRegistration.class doesn't exist.
+    [javac] com/cs/ui/test/nb/webpage/tmp/C8890_AccountRegistration_Wealth.java added as com/cs/ui/test/nb/webpage/tmp/C8890_AccountRegistration_Wealth.class doesn't exist.
+    [javac] com/cs/ui/test/nb/webpage/tmp/C8891_Markets.java added as com/cs/ui/test/nb/webpage/tmp/C8891_Markets.class doesn't exist.
+    [javac] com/cs/ui/test/nb/webpage/tmp/C8892_CurrencyConverter.java added as com/cs/ui/test/nb/webpage/tmp/C8892_CurrencyConverter.class doesn't exist.
+    [javac] com/cs/ui/test/smoke/C5479_loginLogout.java added as com/cs/ui/test/smoke/C5479_loginLogout.class doesn't exist.
+    [javac] com/cs/ui/test/smoke/C5483_quickTradeCadBtc.java added as com/cs/ui/test/smoke/C5483_quickTradeCadBtc.class doesn't exist.
+    [javac] com/cs/ui/test/smoke/C5484_quickTradeCadUsd.java added as com/cs/ui/test/smoke/C5484_quickTradeCadUsd.class doesn't exist.
+    [javac] com/cs/ui/test/smoke/C5485_quickTradeBtcLtc.java added as com/cs/ui/test/smoke/C5485_quickTradeBtcLtc.class doesn't exist.
+    [javac] com/cs/ui/util/WebActionUtil.java added as com/cs/ui/util/WebActionUtil.class doesn't exist.
+    [javac] com/cs/ui/util/WebDriverBase.java added as com/cs/ui/util/WebDriverBase.class doesn't exist.
+    [javac] com/cs/ui/util/WebDriverFactory.java added as com/cs/ui/util/WebDriverFactory.class doesn't exist.
+    [javac] com/cs/ui/util/WebDriverUtil.java added as com/cs/ui/util/WebDriverUtil.class doesn't exist.
+    [javac] com/cs/ui/util/WebInfoUtil.java added as com/cs/ui/util/WebInfoUtil.class doesn't exist.
+    [javac] com/cs/ui/util/WebOsUtil.java added as com/cs/ui/util/WebOsUtil.class doesn't exist.
+    [javac] com/cs/ui/util/WebUtil.java added as com/cs/ui/util/WebUtil.class doesn't exist.
+    [javac] com/test/DebugTestCase.java added as com/test/DebugTestCase.class doesn't exist.
+    [javac] com/test/DebugTestCaseVerifyLedger.java added as com/test/DebugTestCaseVerifyLedger.class doesn't exist.
+    [javac] com/test/DebugTestCase_Forum.java added as com/test/DebugTestCase_Forum.class doesn't exist.
+    [javac] Compiling 64 source files to /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin
+    [javac] Using modern compiler
+    [javac] Compilation arguments:
+'-d'
+'/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin'
+'-classpath'
+'/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/target/classes:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/ant-javamail-1.10.3.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/commons-codec-1.10.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/commons-configuration2-2.2.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/commons-email-1.3.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/commons-exec-1.3.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/commons-io-2.6.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/commons-lang3-3.7.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/commons-logging-1.2.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/commons-net-3.6.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/commons-text-1.1.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/extentreports-2.41.2.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/gson-2.8.2.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/guava-23.0.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/htmlunit-2.28.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/htmlunit-core-js-2.28.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/htmlunit-driver-2.28.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/httpclient-4.5.3.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/httpcore-4.4.6.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/httpmime-4.5.3.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/jasypt-1.9.2.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/javax.mail-1.6.1.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/javax.mail-api-1.6.1.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/javax.servlet-api-3.1.0.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/jcommander-1.48.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/jetty-client-9.4.7.v20170914.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/jetty-http-9.4.7.v20170914.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/jetty-io-9.4.7.v20170914.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/jetty-repacked-9.4.7.v20170914.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/jetty-util-9.4.7.v20170914.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/jetty-xml-9.4.7.v20170914.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/selenium-api-3.8.1.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/selenium-chrome-driver-3.8.1.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/selenium-edge-driver-3.8.1.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/selenium-firefox-driver-3.8.1.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/selenium-ie-driver-3.8.1.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/selenium-java-3.8.1.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/selenium-opera-driver-3.8.1.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/selenium-remote-driver-3.8.1.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/selenium-safari-driver-3.8.1.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/selenium-server-3.8.1.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/selenium-support-3.8.1.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/testng-6.13.1.jar'
+'-sourcepath'
+'/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src'
+'-g:none'
+
+The ' characters around the executable and arguments are
+not part of the command.
+    [javac] Files to be compiled:
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ks/util/KSLoad.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ks/util/KSLoadInfo.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ks/util/KSSendEmail.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ks/util/KSU.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/feature/Dashboard.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/feature/Holdings.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/feature/Login.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/feature/Logout.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/feature/QuickTrade.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/feature/Transactions.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/report/ExtReportListener.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/report/NBReportListener.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/report/NBReportListenerAdaptor.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/test/nb/NbEntry.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/test/nb/dashboard/C5479_loginLogout.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/test/nb/dashboard/quicktrade/C5502_CadEth.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/test/nb/dashboard/quicktrade/C5503_CadLtc.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/test/nb/dashboard/quicktrade/C5504_CadDoge.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/test/nb/dashboard/quicktrade/C5505_CadBch.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/test/nb/dashboard/quicktrade/C5506_CadBtc.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/test/nb/dashboard/quicktrade/C5507_CadUsd.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/test/nb/dashboard/quicktrade/C5508_BtcLtc.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/test/nb/dashboard/quicktrade/C5510_CadDash.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/test/nb/dashboard/quicktrade/C5522_BtcEth.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/test/nb/dashboard/quicktrade/C5523_BtcBch.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/test/nb/dashboard/quicktrade/C5524_BtcDoge.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/test/nb/dashboard/quicktrade/C5525_BtcDash.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/test/nb/dashboard/quicktrade/C5528_LtcEth.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/test/nb/dashboard/quicktrade/C5529_DogeBch.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/test/nb/dashboard/quicktrade/percent/C5511_UsdBtc_25Percent.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/test/nb/dashboard/quicktrade/percent/C5517_UsdEth_50Percent.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/test/nb/dashboard/quicktrade/percent/C5518_UsdLtc_100Percent.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/test/nb/tmp/C5519_UsdDash_100Percent.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/test/nb/tmp/C5520_UsdBch_25Percent.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/test/nb/tmp/C5521_UsdDoge_50Percent.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/test/nb/webpage/C8882_HomePage.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/test/nb/webpage/C8886_WealthPage.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/test/nb/webpage/C8887_HowItWorks.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/test/nb/webpage/C8893_Contact.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/test/nb/webpage/C8894_FundingOptions.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/test/nb/webpage/C8895_About.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/test/nb/webpage/C8896_TradingFees.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/test/nb/webpage/C8897_TermsAndConditions.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/test/nb/webpage/C8898_PrivacyPolicy.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/test/nb/webpage/C8899_AMLPolicy.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/test/nb/webpage/tmp/C8888_AccountLogin.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/test/nb/webpage/tmp/C8889_AccountRegistration.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/test/nb/webpage/tmp/C8890_AccountRegistration_Wealth.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/test/nb/webpage/tmp/C8891_Markets.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/test/nb/webpage/tmp/C8892_CurrencyConverter.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/test/smoke/C5479_loginLogout.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/test/smoke/C5483_quickTradeCadBtc.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/test/smoke/C5484_quickTradeCadUsd.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/test/smoke/C5485_quickTradeBtcLtc.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/util/WebActionUtil.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/util/WebDriverBase.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/util/WebDriverFactory.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/util/WebDriverUtil.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/util/WebInfoUtil.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/util/WebOsUtil.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/cs/ui/util/WebUtil.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/test/DebugTestCase.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/test/DebugTestCaseVerifyLedger.java
+    /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/src/com/test/DebugTestCase_Forum.java
+     [echo]  /* Compiled Directory Classes */ 
+compile:  duration 4 seconds
+
+testng-execution:
+    [mkdir] Created dir: /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/Test-Report/TestNGreport
+   [testng] Executing '/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/bin/java' with arguments:
+'-ea'
+'-classpath'
+'/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/target/classes:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/bin:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/ant-javamail-1.10.3.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/commons-codec-1.10.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/commons-configuration2-2.2.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/commons-email-1.3.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/commons-exec-1.3.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/commons-io-2.6.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/commons-lang3-3.7.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/commons-logging-1.2.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/commons-net-3.6.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/commons-text-1.1.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/extentreports-2.41.2.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/gson-2.8.2.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/guava-23.0.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/htmlunit-2.28.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/htmlunit-core-js-2.28.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/htmlunit-driver-2.28.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/httpclient-4.5.3.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/httpcore-4.4.6.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/httpmime-4.5.3.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/jasypt-1.9.2.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/javax.mail-1.6.1.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/javax.mail-api-1.6.1.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/javax.servlet-api-3.1.0.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/jcommander-1.48.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/jetty-client-9.4.7.v20170914.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/jetty-http-9.4.7.v20170914.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/jetty-io-9.4.7.v20170914.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/jetty-repacked-9.4.7.v20170914.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/jetty-util-9.4.7.v20170914.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/jetty-xml-9.4.7.v20170914.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/selenium-api-3.8.1.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/selenium-chrome-driver-3.8.1.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/selenium-edge-driver-3.8.1.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/selenium-firefox-driver-3.8.1.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/selenium-ie-driver-3.8.1.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/selenium-java-3.8.1.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/selenium-opera-driver-3.8.1.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/selenium-remote-driver-3.8.1.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/selenium-safari-driver-3.8.1.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/selenium-server-3.8.1.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/selenium-support-3.8.1.jar:/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/lib/testng-6.13.1.jar'
+'org.testng.TestNG'
+'@/var/folders/17/n4tk_wqj3kg68ggr5pgc8fz40000gn/T/testng4019307490186049749'
+
+The ' characters around the executable and arguments are
+not part of the command.
+   [testng] Starting ChromeDriver 2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef) on port 39928
+   [testng] Only local connections are allowed.
+   [testng] Aug 17, 2018 9:30:30 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+   [testng] INFO: Detected dialect: OSS
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C5479: Login from home page & Logout >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] ========== Login from home page with user: csqa_webtest1 ==========
+   [testng] ========== Login from home page - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Log Out with user: csqa_webtest1 ==========
+   [testng] ========== Log Out - Done. ==========
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C5479 (Done): Login from home page & Logout >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] Duration: [Class Name : com.cs.ui.test.nb.dashboard.C5479_loginLogout, Running Time : 18 seconds.]
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C5529: Dashboard: Quick Trade – DOGE/BCH >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] ========== Login with user: csqa_webtest1 ==========
+   [testng] ========== Login - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Sell DOGE, Buy BCH: ==========
+   [testng] ========== Getting Holdings for DOGE, Column: Quantity ==========
+   [testng] ========== Holdings for DOGE is: 5112.1086 ==========
+   [testng] ========== Getting Holdings for BCH, Column: Quantity ==========
+   [testng] ========== Holdings for BCH is: 0.02223717 ==========
+   [testng] INFO: Enough balance for trade.
+   [testng] ========== Starting Quick Trade: ==========
+   [testng] ========== Selling: DOGE, Amount: 10.00000000, for: BCH ==========
+   [testng] Selected Currency: DOGE
+   [testng] Selected Currency: BCH
+   [testng] Quoted Amount is: 0.00004215
+   [testng] ========== Quick Trade - Done. ==========
+   [testng] ========== Starting Verify Ledger: [Currency : DOGE; Year : ALL; Tab : Quick Trade; Column : TO; Row# : 1; Expected Value : 0.00004215 BCH] ==========
+   [testng] Waiting for Ledger to update...
+   [testng] Actual Value - 4.215E-5 BCH. Apply 10% acceptable range.
+   [testng] ========== Verify Ledger - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Verifying Holdings for DOGE, Column: Quantity, is: 5102.1086 ==========
+   [testng] Actual Holdings - 5102.1086. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for DOGE - Done. ==========
+   [testng] ========== Verifying Holdings for BCH, Column: Quantity, is: 0.02227932 ==========
+   [testng] Actual Holdings - 0.02227932. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for BCH - Done. ==========
+   [testng] ========== Sell BCH, Buy DOGE: ==========
+   [testng] ========== Starting Quick Trade: ==========
+   [testng] ========== Selling: BCH, Amount: 0.00004215, for: DOGE ==========
+   [testng] Selected Currency: BCH
+   [testng] Selected Currency: DOGE
+   [testng] Quoted Amount is: 8.94399981
+   [testng] ========== Quick Trade - Done. ==========
+   [testng] ========== Starting Verify Ledger: [Currency : BCH; Year : ALL; Tab : Quick Trade; Column : TO; Row# : 1; Expected Value : 8.94399981 DOGE] ==========
+   [testng] Waiting for Ledger to update...
+   [testng] Actual Value - 0.09 CAD. Apply 10% acceptable range.
+   [testng] Duration: [Class Name : com.cs.ui.test.nb.dashboard.quicktrade.C5529_DogeBch, Running Time : 185 seconds.]
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C5517: Dashboard: Quick Trade – USD/ETH (50%) >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] ========== Login with user: csqa_webtest1 ==========
+   [testng] ========== Login - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Sell USD, Buy ETH: ==========
+   [testng] ========== Getting Holdings for USD, Column: Quantity ==========
+   [testng] ========== Holdings for USD is: 4.72 ==========
+   [testng] ========== Getting Holdings for ETH, Column: Quantity ==========
+   [testng] ========== Holdings for ETH is: 0.02943550 ==========
+   [testng] ========== Starting Quick Trade: ==========
+   [testng] ========== Selling: USD, Percent: 50%, for: ETH ==========
+   [testng] Selected Currency: USD
+   [testng] 25%
+   [testng] 50%
+   [testng] ========== Starting verify the percentage amount:  ==========
+   [testng] ========== Verifying 50% for: USD (4.72) is: 2.360 ==========
+   [testng] Duration: [Class Name : com.cs.ui.test.nb.dashboard.quicktrade.percent.C5517_UsdEth_50Percent, Running Time : 34 seconds.]
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C8897: Terms & Conditions - https://coinsquare.com/terms >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] ========== Two files have same content. - Expected ==========
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C8897 (Done): Terms & Conditions >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] Duration: [Class Name : com.cs.ui.test.nb.webpage.C8897_TermsAndConditions, Running Time : 5 seconds.]
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C5505: Dashboard: Quick Trade – CAD/BCH >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] ========== Login with user: csqa_webtest1 ==========
+   [testng] ========== Login - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Sell CAD, Buy BCH: ==========
+   [testng] ========== Getting Holdings for BCH, Column: Quantity ==========
+   [testng] ========== Holdings for BCH is: 0.02223717 ==========
+   [testng] ========== Getting Holdings for CAD, Column: CAD ==========
+   [testng] ========== Holdings for CAD is: 67.56 ==========
+   [testng] INFO: Enough balance for trade.
+   [testng] ========== Starting Quick Trade: ==========
+   [testng] ========== Selling: CAD, Amount: 0.10000000, for: BCH ==========
+   [testng] Selected Currency: CAD
+   [testng] Selected Currency: BCH
+   [testng] Quoted Amount is: 0.00013781
+   [testng] ========== Quick Trade - Done. ==========
+   [testng] ========== Starting Verify Ledger: [Currency : CAD; Year : ALL; Tab : Quick Trade; Column : TO; Row# : 1; Expected Value : 0.00013781 BCH] ==========
+   [testng] Waiting for Ledger to update...
+   [testng] Actual Value - 1.3781E-4 BCH. Apply 10% acceptable range.
+   [testng] ========== Verify Ledger - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Verifying Holdings for CAD, Column: CAD, is: 67.46000000000001 ==========
+   [testng] Actual Holdings - 67.45. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for CAD - Done. ==========
+   [testng] ========== Verifying Holdings for BCH, Column: Quantity, is: 0.02237498 ==========
+   [testng] Actual Holdings - 0.02237498. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for BCH - Done. ==========
+   [testng] ========== Sell BCH, Buy CAD: ==========
+   [testng] ========== Starting Quick Trade: ==========
+   [testng] ========== Selling: BCH, Amount: 0.00013781, for: CAD ==========
+   [testng] Duration: [Class Name : com.cs.ui.test.nb.dashboard.quicktrade.C5505_CadBch, Running Time : 420 seconds.]
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C5518: Dashboard: Quick Trade – USD/LTC (100%) >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] ========== Login with user: csqa_webtest1 ==========
+   [testng] ========== Login - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Sell USD, Buy LTC: ==========
+   [testng] ========== Getting Holdings for USD, Column: Quantity ==========
+   [testng] ========== Holdings for USD is: 4.72 ==========
+   [testng] ========== Getting Holdings for LTC, Column: Quantity ==========
+   [testng] ========== Holdings for LTC is: 0.24892559 ==========
+   [testng] ========== Starting Quick Trade: ==========
+   [testng] ========== Selling: USD, Percent: 100%, for: LTC ==========
+   [testng] Selected Currency: USD
+   [testng] 25%
+   [testng] 50%
+   [testng] 100%
+   [testng] ========== Starting verify the percentage amount:  ==========
+   [testng] ========== Verifying 100% for: USD (4.72) is: 4.72 ==========
+   [testng] ========== Verify the percentage amount - Done. ==========
+   [testng] Selected Currency: LTC
+   [testng] Quoted Amount is: 0.07640182
+   [testng] ========== Quick Trade - Done. ==========
+   [testng] ========== Starting Verify Ledger: [Currency : USD; Year : ALL; Tab : Quick Trade; Column : TO; Row# : 1; Expected Value : 0.07640182 LTC] ==========
+   [testng] Waiting for Ledger to update...
+   [testng] Actual Value - 0.07640181 LTC. Apply 10% acceptable range.
+   [testng] ========== Verify Ledger - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Verifying Holdings for USD, Column: Quantity, is: 0.0 ==========
+   [testng] ========== Holdings for USD is not available!  ==========
+   [testng] ========== Verifying Holdings for USD - Done. ==========
+   [testng] ========== Verifying Holdings for LTC, Column: Quantity, is: 0.32532741 ==========
+   [testng] Actual Holdings - 0.32532741. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for LTC - Done. ==========
+   [testng] ========== Sell LTC, Buy USD: ==========
+   [testng] ========== Starting Quick Trade: ==========
+   [testng] ========== Selling: LTC, Amount: 0.07640182, for: USD ==========
+   [testng] Selected Currency: LTC
+   [testng] Selected Currency: USD
+   [testng] Quoted Amount is: 4.33
+   [testng] ========== Quick Trade - Done. ==========
+   [testng] ========== Starting Verify Ledger: [Currency : LTC; Year : ALL; Tab : Quick Trade; Column : TO; Row# : 1; Expected Value : 4.33 USD] ==========
+   [testng] Waiting for Ledger to update...
+   [testng] Actual Value - 4.33 USD. Apply 10% acceptable range.
+   [testng] ========== Verify Ledger - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Verifying Holdings for LTC, Column: Quantity, is: 0.24892559 ==========
+   [testng] Actual Holdings - 0.2489256. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for LTC - Done. ==========
+   [testng] ========== Verifying Holdings for USD, Column: Quantity, is: 4.33 ==========
+   [testng] Actual Holdings - 4.33. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for USD - Done. ==========
+   [testng] ========== Log Out with user: csqa_webtest1 ==========
+   [testng] ========== Log Out - Done. ==========
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C5518 (DONE): Dashboard: Quick Trade – USD/LTC (100%) >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] Duration: [Class Name : com.cs.ui.test.nb.dashboard.quicktrade.percent.C5518_UsdLtc_100Percent, Running Time : 206 seconds.]
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C8882: Home Page - https://coinsquare.com/ >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] !!!ERROR: Not navigated to the correct page !!!
+   [testng] Duration: [Class Name : com.cs.ui.test.nb.webpage.C8882_HomePage, Running Time : 8 seconds.]
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C5507: Dashboard: Quick Trade – CAD/USD >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] ========== Login with user: csqa_webtest1 ==========
+   [testng] ========== Login - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Sell CAD, Buy USD: ==========
+   [testng] ========== Getting Holdings for USD, Column: Quantity ==========
+   [testng] ========== Holdings for USD is: 4.33 ==========
+   [testng] ========== Getting Holdings for CAD, Column: CAD ==========
+   [testng] ========== Holdings for CAD is: 67.45 ==========
+   [testng] INFO: Enough balance for trade.
+   [testng] ========== Starting Quick Trade: ==========
+   [testng] ========== Selling: CAD, Amount: 0.10000000, for: USD ==========
+   [testng] Selected Currency: CAD
+   [testng] Selected Currency: USD
+   [testng] Quoted Amount is: 0.07
+   [testng] ========== Quick Trade - Done. ==========
+   [testng] ========== Starting Verify Ledger: [Currency : CAD; Year : ALL; Tab : Quick Trade; Column : TO; Row# : 1; Expected Value : 0.07 USD] ==========
+   [testng] Waiting for Ledger to update...
+   [testng] Actual Value - 0.07 USD. Apply 10% acceptable range.
+   [testng] ========== Verify Ledger - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Verifying Holdings for CAD, Column: CAD, is: 67.35000000000001 ==========
+   [testng] Actual Holdings - 67.36. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for CAD - Done. ==========
+   [testng] ========== Verifying Holdings for USD, Column: Quantity, is: 4.4 ==========
+   [testng] Actual Holdings - 4.4. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for USD - Done. ==========
+   [testng] ========== Sell USD, Buy CAD: ==========
+   [testng] ========== Starting Quick Trade: ==========
+   [testng] ========== Selling: USD, Amount: 0.07000000, for: CAD ==========
+   [testng] Selected Currency: USD
+   [testng] Selected Currency: CAD
+   [testng] Quoted Amount is: 0.08
+   [testng] ========== Quick Trade - Done. ==========
+   [testng] ========== Starting Verify Ledger: [Currency : USD; Year : ALL; Tab : Quick Trade; Column : TO; Row# : 1; Expected Value : 0.08 CAD] ==========
+   [testng] Waiting for Ledger to update...
+   [testng] Actual Value - 0.08 CAD. Apply 10% acceptable range.
+   [testng] ========== Verify Ledger - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Verifying Holdings for USD, Column: Quantity, is: 4.33 ==========
+   [testng] Actual Holdings - 4.33. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for USD - Done. ==========
+   [testng] ========== Verifying Holdings for CAD, Column: CAD, is: 67.43 ==========
+   [testng] Actual Holdings - 67.44. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for CAD - Done. ==========
+   [testng] ========== Log Out with user: csqa_webtest1 ==========
+   [testng] ========== Log Out - Done. ==========
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C5507 (Done): Dashboard: Quick Trade – CAD/USD >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] Duration: [Class Name : com.cs.ui.test.nb.dashboard.quicktrade.C5507_CadUsd, Running Time : 191 seconds.]
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C5511: Dashboard: Quick Trade – USD/BTC (25%) >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] ========== Login with user: csqa_webtest1 ==========
+   [testng] ========== Login - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Sell USD, Buy BTC: ==========
+   [testng] ========== Getting Holdings for USD, Column: Quantity ==========
+   [testng] ========== Holdings for USD is: 4.33 ==========
+   [testng] ========== Getting Holdings for BTC, Column: Quantity ==========
+   [testng] ========== Holdings for BTC is: 0.00628181 ==========
+   [testng] ========== Starting Quick Trade: ==========
+   [testng] ========== Selling: USD, Percent: 25%, for: BTC ==========
+   [testng] Selected Currency: USD
+   [testng] 25%
+   [testng] ========== Starting verify the percentage amount:  ==========
+   [testng] ========== Verifying 25% for: USD (4.33) is: 1.08 ==========
+   [testng] Duration: [Class Name : com.cs.ui.test.nb.dashboard.quicktrade.percent.C5511_UsdBtc_25Percent, Running Time : 30 seconds.]
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C8898: Privacy Policy Page - https://coinsquare.com/privacy_policy >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] ========== Two files have same content. - Expected ==========
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C8898 (Done): Privacy Policy Page >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] Duration: [Class Name : com.cs.ui.test.nb.webpage.C8898_PrivacyPolicy, Running Time : 5 seconds.]
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C5508: Dashboard: Quick Trade – BTC/LTC >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] ========== Login with user: csqa_webtest1 ==========
+   [testng] ========== Login - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Sell BTC, Buy LTC: ==========
+   [testng] ========== Getting Holdings for BTC, Column: Quantity ==========
+   [testng] ========== Holdings for BTC is: 0.00628181 ==========
+   [testng] ========== Getting Holdings for LTC, Column: Quantity ==========
+   [testng] ========== Holdings for LTC is: 0.24892560 ==========
+   [testng] INFO: Enough balance for trade.
+   [testng] ========== Starting Quick Trade: ==========
+   [testng] ========== Selling: BTC, Amount: 0.00001000, for: LTC ==========
+   [testng] Selected Currency: BTC
+   [testng] Selected Currency: LTC
+   [testng] Quoted Amount is: 0.00107690
+   [testng] ========== Quick Trade - Done. ==========
+   [testng] ========== Starting Verify Ledger: [Currency : BTC; Year : ALL; Tab : Quick Trade; Column : TO; Row# : 1; Expected Value : 0.00107690 LTC] ==========
+   [testng] Waiting for Ledger to update...
+   [testng] Actual Value - 0.0010769 LTC. Apply 10% acceptable range.
+   [testng] ========== Verify Ledger - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Verifying Holdings for BTC, Column: Quantity, is: 0.00627181 ==========
+   [testng] Actual Holdings - 0.00627181. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for BTC - Done. ==========
+   [testng] ========== Verifying Holdings for LTC, Column: Quantity, is: 0.2500025 ==========
+   [testng] Actual Holdings - 0.2500025. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for LTC - Done. ==========
+   [testng] ========== Sell LTC, Buy BTC: ==========
+   [testng] ========== Starting Quick Trade: ==========
+   [testng] ========== Selling: LTC, Amount: 0.00107690, for: BTC ==========
+   [testng] Selected Currency: LTC
+   [testng] Selected Currency: BTC
+   [testng] Quoted Amount is: 0.00000940
+   [testng] ========== Quick Trade - Done. ==========
+   [testng] ========== Starting Verify Ledger: [Currency : LTC; Year : ALL; Tab : Quick Trade; Column : TO; Row# : 1; Expected Value : 0.00000940 BTC] ==========
+   [testng] Waiting for Ledger to update...
+   [testng] Actual Value - 9.4E-6 BTC. Apply 10% acceptable range.
+   [testng] ========== Verify Ledger - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Verifying Holdings for LTC, Column: Quantity, is: 0.2489256 ==========
+   [testng] Actual Holdings - 0.2489256. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for LTC - Done. ==========
+   [testng] ========== Verifying Holdings for BTC, Column: Quantity, is: 0.00628121 ==========
+   [testng] Actual Holdings - 0.00628121. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for BTC - Done. ==========
+   [testng] ========== Log Out with user: csqa_webtest1 ==========
+   [testng] ========== Log Out - Done. ==========
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C5508 (Done): Dashboard: Quick Trade – BTC/LTC >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] Duration: [Class Name : com.cs.ui.test.nb.dashboard.quicktrade.C5508_BtcLtc, Running Time : 297 seconds.]
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C8896: Trading Fees Page - https://coinsquare.com/trading_fees >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] ========== Two files have same content. - Expected ==========
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C8896 (Done): Trading Fees Page >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] Duration: [Class Name : com.cs.ui.test.nb.webpage.C8896_TradingFees, Running Time : 20 seconds.]
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C5525: Dashboard: Quick Trade – BTC/DASH >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] ========== Login with user: csqa_webtest1 ==========
+   [testng] ========== Login - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Sell BTC, Buy DASH: ==========
+   [testng] ========== Getting Holdings for BTC, Column: Quantity ==========
+   [testng] ========== Holdings for BTC is: 0.00628121 ==========
+   [testng] ========== Getting Holdings for DASH, Column: Quantity ==========
+   [testng] ========== Holdings for DASH is: 0.04155433 ==========
+   [testng] INFO: Enough balance for trade.
+   [testng] ========== Starting Quick Trade: ==========
+   [testng] ========== Selling: BTC, Amount: 0.00001000, for: DASH ==========
+   [testng] Selected Currency: BTC
+   [testng] Selected Currency: DASH
+   [testng] Quoted Amount is: 0.00038774
+   [testng] ========== Quick Trade - Done. ==========
+   [testng] ========== Starting Verify Ledger: [Currency : BTC; Year : ALL; Tab : Quick Trade; Column : TO; Row# : 1; Expected Value : 0.00038774 DASH] ==========
+   [testng] Waiting for Ledger to update...
+   [testng] Actual Value - 3.8774E-4 DASH. Apply 10% acceptable range.
+   [testng] ========== Verify Ledger - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Verifying Holdings for BTC, Column: Quantity, is: 0.00627121 ==========
+   [testng] Actual Holdings - 0.00627121. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for BTC - Done. ==========
+   [testng] ========== Verifying Holdings for DASH, Column: Quantity, is: 0.04194207 ==========
+   [testng] Actual Holdings - 0.04194207. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for DASH - Done. ==========
+   [testng] ========== Sell DASH, Buy BTC: ==========
+   [testng] ========== Starting Quick Trade: ==========
+   [testng] ========== Selling: DASH, Amount: 0.00038774, for: BTC ==========
+   [testng] Selected Currency: DASH
+   [testng] Selected Currency: BTC
+   [testng] Quoted Amount is: 0.00000912
+   [testng] ========== Quick Trade - Done. ==========
+   [testng] ========== Starting Verify Ledger: [Currency : DASH; Year : ALL; Tab : Quick Trade; Column : TO; Row# : 1; Expected Value : 0.00000912 BTC] ==========
+   [testng] Waiting for Ledger to update...
+   [testng] Actual Value - 9.12E-6 BTC. Apply 10% acceptable range.
+   [testng] ========== Verify Ledger - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Verifying Holdings for DASH, Column: Quantity, is: 0.04155433 ==========
+   [testng] Actual Holdings - 0.04155433. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for DASH - Done. ==========
+   [testng] ========== Verifying Holdings for BTC, Column: Quantity, is: 0.00628033 ==========
+   [testng] Actual Holdings - 0.00628033. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for BTC - Done. ==========
+   [testng] ========== Log Out with user: csqa_webtest1 ==========
+   [testng] ========== Log Out - Done. ==========
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C5525 (Done): Dashboard: Quick Trade – BTC/DASH >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] Duration: [Class Name : com.cs.ui.test.nb.dashboard.quicktrade.C5525_BtcDash, Running Time : 458 seconds.]
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C8887: How It Works Page - https://coinsquare.com/how_it_works >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] ========== Two files have same content. - Expected ==========
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C8887 (Done): How It Works Page >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] Duration: [Class Name : com.cs.ui.test.nb.webpage.C8887_HowItWorks, Running Time : 4 seconds.]
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C5522: Dashboard: Quick Trade – BTC/ETH >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] ========== Login with user: csqa_webtest1 ==========
+   [testng] ========== Login - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Sell BTC, Buy ETH: ==========
+   [testng] ========== Getting Holdings for BTC, Column: Quantity ==========
+   [testng] ========== Holdings for BTC is: 0.00628033 ==========
+   [testng] ========== Getting Holdings for ETH, Column: Quantity ==========
+   [testng] ========== Holdings for ETH is: 0.02943550 ==========
+   [testng] INFO: Enough balance for trade.
+   [testng] ========== Starting Quick Trade: ==========
+   [testng] ========== Selling: BTC, Amount: 0.00001000, for: ETH ==========
+   [testng] Selected Currency: BTC
+   [testng] Selected Currency: ETH
+   [testng] Quoted Amount is: 0.00021382
+   [testng] ========== Quick Trade - Done. ==========
+   [testng] ========== Starting Verify Ledger: [Currency : BTC; Year : ALL; Tab : Quick Trade; Column : TO; Row# : 1; Expected Value : 0.00021382 ETH] ==========
+   [testng] Waiting for Ledger to update...
+   [testng] Actual Value - 2.1382E-4 ETH. Apply 10% acceptable range.
+   [testng] ========== Verify Ledger - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Verifying Holdings for BTC, Column: Quantity, is: 0.00627033 ==========
+   [testng] Actual Holdings - 0.00627033. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for BTC - Done. ==========
+   [testng] ========== Verifying Holdings for ETH, Column: Quantity, is: 0.02964932 ==========
+   [testng] Actual Holdings - 0.02964932. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for ETH - Done. ==========
+   [testng] ========== Sell ETH, Buy BTC: ==========
+   [testng] ========== Starting Quick Trade: ==========
+   [testng] ========== Selling: ETH, Amount: 0.00021382, for: BTC ==========
+   [testng] Selected Currency: ETH
+   [testng] Selected Currency: BTC
+   [testng] Quoted Amount is: 0.00000969
+   [testng] ========== Quick Trade - Done. ==========
+   [testng] ========== Starting Verify Ledger: [Currency : ETH; Year : ALL; Tab : Quick Trade; Column : TO; Row# : 1; Expected Value : 0.00000969 BTC] ==========
+   [testng] Waiting for Ledger to update...
+   [testng] Actual Value - 9.69E-6 BTC. Apply 10% acceptable range.
+   [testng] ========== Verify Ledger - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Verifying Holdings for ETH, Column: Quantity, is: 0.0294355 ==========
+   [testng] Actual Holdings - 0.0294355. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for ETH - Done. ==========
+   [testng] ========== Verifying Holdings for BTC, Column: Quantity, is: 0.00628002 ==========
+   [testng] Actual Holdings - 0.00628002. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for BTC - Done. ==========
+   [testng] ========== Log Out with user: csqa_webtest1 ==========
+   [testng] ========== Log Out - Done. ==========
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C5520 (Done): Dashboard: Quick Trade – BTC/ETH >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] Duration: [Class Name : com.cs.ui.test.nb.dashboard.quicktrade.C5522_BtcEth, Running Time : 423 seconds.]
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C8899: AML Policy Page - https://coinsquare.com/aml_compliance_policy >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] ========== Two files have same content. - Expected ==========
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C8899 (Done): AML Policy Page >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] Duration: [Class Name : com.cs.ui.test.nb.webpage.C8899_AMLPolicy, Running Time : 12 seconds.]
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C5502: Dashboard: Quick Trade – CAD/ETH >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] ========== Login with user: csqa_webtest1 ==========
+   [testng] ========== Login - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Sell CAD, Buy ETH: ==========
+   [testng] ========== Getting Holdings for ETH, Column: Quantity ==========
+   [testng] ========== Holdings for ETH is: 0.02943550 ==========
+   [testng] ========== Getting Holdings for CAD, Column: CAD ==========
+   [testng] ========== Holdings for CAD is: 67.44 ==========
+   [testng] INFO: Enough balance for trade.
+   [testng] ========== Starting Quick Trade: ==========
+   [testng] ========== Selling: CAD, Amount: 0.10000000, for: ETH ==========
+   [testng] Selected Currency: CAD
+   [testng] Selected Currency: ETH
+   [testng] Quoted Amount is: 0.00024711
+   [testng] ========== Quick Trade - Done. ==========
+   [testng] ========== Starting Verify Ledger: [Currency : CAD; Year : ALL; Tab : Quick Trade; Column : TO; Row# : 1; Expected Value : 0.00024711 ETH] ==========
+   [testng] Waiting for Ledger to update...
+   [testng] Actual Value - 2.4711E-4 ETH. Apply 10% acceptable range.
+   [testng] ========== Verify Ledger - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Verifying Holdings for CAD, Column: CAD, is: 67.34 ==========
+   [testng] Actual Holdings - 67.34. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for CAD - Done. ==========
+   [testng] ========== Verifying Holdings for ETH, Column: Quantity, is: 0.02968261 ==========
+   [testng] Actual Holdings - 0.02968261. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for ETH - Done. ==========
+   [testng] ========== Sell ETH, Buy CAD: ==========
+   [testng] ========== Starting Quick Trade: ==========
+   [testng] ========== Selling: ETH, Amount: 0.00024711, for: CAD ==========
+   [testng] Selected Currency: ETH
+   [testng] Selected Currency: CAD
+   [testng] Quoted Amount is: 0.09
+   [testng] ========== Quick Trade - Done. ==========
+   [testng] ========== Starting Verify Ledger: [Currency : ETH; Year : ALL; Tab : Quick Trade; Column : TO; Row# : 1; Expected Value : 0.09 CAD] ==========
+   [testng] Waiting for Ledger to update...
+   [testng] Actual Value - 0.09 CAD. Apply 10% acceptable range.
+   [testng] ========== Verify Ledger - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Verifying Holdings for ETH, Column: Quantity, is: 0.0294355 ==========
+   [testng] Actual Holdings - 0.0294355. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for ETH - Done. ==========
+   [testng] ========== Verifying Holdings for CAD, Column: CAD, is: 67.43 ==========
+   [testng] Actual Holdings - 67.43. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for CAD - Done. ==========
+   [testng] ========== Log Out with user: csqa_webtest1 ==========
+   [testng] ========== Log Out - Done. ==========
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C5502 (Done): Dashboard: Quick Trade – CAD/ETH >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] Duration: [Class Name : com.cs.ui.test.nb.dashboard.quicktrade.C5502_CadEth, Running Time : 425 seconds.]
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C8894: Funding Options Page - https://coinsquare.com/funding_options >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] ========== Two files have same content. - Expected ==========
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C8894 (Done): Funding Options Page >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] Duration: [Class Name : com.cs.ui.test.nb.webpage.C8894_FundingOptions, Running Time : 8 seconds.]
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C5523: Dashboard: Quick Trade – BTC/BCH >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] ========== Login with user: csqa_webtest1 ==========
+   [testng] ========== Login - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Sell BTC, Buy BCH: ==========
+   [testng] ========== Getting Holdings for BTC, Column: Quantity ==========
+   [testng] ========== Holdings for BTC is: 0.00628002 ==========
+   [testng] ========== Getting Holdings for BCH, Column: Quantity ==========
+   [testng] ========== Holdings for BCH is: 0.02237498 ==========
+   [testng] INFO: Enough balance for trade.
+   [testng] ========== Starting Quick Trade: ==========
+   [testng] ========== Selling: BTC, Amount: 0.00001000, for: BCH ==========
+   [testng] Selected Currency: BTC
+   [testng] Selected Currency: BCH
+   [testng] Quoted Amount is: 0.00011734
+   [testng] ========== Quick Trade - Done. ==========
+   [testng] ========== Starting Verify Ledger: [Currency : BTC; Year : ALL; Tab : Quick Trade; Column : TO; Row# : 1; Expected Value : 0.00011734 BCH] ==========
+   [testng] Waiting for Ledger to update...
+   [testng] Actual Value - 1.1734E-4 BCH. Apply 10% acceptable range.
+   [testng] ========== Verify Ledger - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Verifying Holdings for BTC, Column: Quantity, is: 0.00627002 ==========
+   [testng] Actual Holdings - 0.00627002. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for BTC - Done. ==========
+   [testng] ========== Verifying Holdings for BCH, Column: Quantity, is: 0.02249232 ==========
+   [testng] Actual Holdings - 0.02249232. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for BCH - Done. ==========
+   [testng] ========== Sell BCH, Buy BTC: ==========
+   [testng] ========== Starting Quick Trade: ==========
+   [testng] ========== Selling: BCH, Amount: 0.00011734, for: BTC ==========
+   [testng] Selected Currency: BCH
+   [testng] Selected Currency: BTC
+   [testng] Quoted Amount is: 0.00000948
+   [testng] ========== Quick Trade - Done. ==========
+   [testng] ========== Starting Verify Ledger: [Currency : BCH; Year : ALL; Tab : Quick Trade; Column : TO; Row# : 1; Expected Value : 0.00000948 BTC] ==========
+   [testng] Waiting for Ledger to update...
+   [testng] Actual Value - 9.48E-6 BTC. Apply 10% acceptable range.
+   [testng] ========== Verify Ledger - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Verifying Holdings for BCH, Column: Quantity, is: 0.02237498 ==========
+   [testng] Actual Holdings - 0.02237498. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for BCH - Done. ==========
+   [testng] ========== Verifying Holdings for BTC, Column: Quantity, is: 0.0062795 ==========
+   [testng] Actual Holdings - 0.0062795. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for BTC - Done. ==========
+   [testng] ========== Log Out with user: csqa_webtest1 ==========
+   [testng] ========== Log Out - Done. ==========
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C5523 (Done): Dashboard: Quick Trade – BTC/BCH >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] Duration: [Class Name : com.cs.ui.test.nb.dashboard.quicktrade.C5523_BtcBch, Running Time : 429 seconds.]
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C8895: About Page - https://coinsquare.com/about >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] ========== Two files have same content. - Expected ==========
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C8895 (Done): About Page >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] Duration: [Class Name : com.cs.ui.test.nb.webpage.C8895_About, Running Time : 36 seconds.]
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C5524: Dashboard: Quick Trade – BTC/DOGE >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] ========== Login with user: csqa_webtest1 ==========
+   [testng] ========== Login - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Sell BTC, Buy DOGE: ==========
+   [testng] ========== Getting Holdings for BTC, Column: Quantity ==========
+   [testng] ========== Holdings for BTC is: 0.00627950 ==========
+   [testng] ========== Getting Holdings for DOGE, Column: Quantity ==========
+   [testng] ========== Holdings for DOGE is: 5111.0526 ==========
+   [testng] INFO: Enough balance for trade.
+   [testng] ========== Starting Quick Trade: ==========
+   [testng] ========== Selling: BTC, Amount: 0.00001000, for: DOGE ==========
+   [testng] Selected Currency: BTC
+   [testng] Selected Currency: DOGE
+   [testng] Quoted Amount is: 26.05262765
+   [testng] ========== Quick Trade - Done. ==========
+   [testng] ========== Starting Verify Ledger: [Currency : BTC; Year : ALL; Tab : Quick Trade; Column : TO; Row# : 1; Expected Value : 26.05262765 DOGE] ==========
+   [testng] Waiting for Ledger to update...
+   [testng] Actual Value - 26.05262765 DOGE. Apply 10% acceptable range.
+   [testng] ========== Verify Ledger - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Verifying Holdings for BTC, Column: Quantity, is: 0.0062695 ==========
+   [testng] Actual Holdings - 0.0062695. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for BTC - Done. ==========
+   [testng] ========== Verifying Holdings for DOGE, Column: Quantity, is: 5137.10522765 ==========
+   [testng] Actual Holdings - 5137.1052. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for DOGE - Done. ==========
+   [testng] ========== Sell DOGE, Buy BTC: ==========
+   [testng] ========== Starting Quick Trade: ==========
+   [testng] ========== Selling: DOGE, Amount: 26.05262765, for: BTC ==========
+   [testng] Selected Currency: DOGE
+   [testng] Selected Currency: BTC
+   [testng] Quoted Amount is: 0.00000953
+   [testng] ========== Quick Trade - Done. ==========
+   [testng] ========== Starting Verify Ledger: [Currency : DOGE; Year : ALL; Tab : Quick Trade; Column : TO; Row# : 1; Expected Value : 0.00000953 BTC] ==========
+   [testng] Waiting for Ledger to update...
+   [testng] Actual Value - 9.53E-6 BTC. Apply 10% acceptable range.
+   [testng] ========== Verify Ledger - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Verifying Holdings for DOGE, Column: Quantity, is: 5111.0526 ==========
+   [testng] Actual Holdings - 5111.0526. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for DOGE - Done. ==========
+   [testng] ========== Verifying Holdings for BTC, Column: Quantity, is: 0.00627903 ==========
+   [testng] Actual Holdings - 0.00627903. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for BTC - Done. ==========
+   [testng] ========== Log Out with user: csqa_webtest1 ==========
+   [testng] ========== Log Out - Done. ==========
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C5524 (Done): Dashboard: Quick Trade – BTC/DOGE >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] Duration: [Class Name : com.cs.ui.test.nb.dashboard.quicktrade.C5524_BtcDoge, Running Time : 483 seconds.]
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C8893: Contact Page - https://coinsquare.com/contact >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] ========== Two files have same content. - Expected ==========
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C8893 (Done): Contact Page >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] Duration: [Class Name : com.cs.ui.test.nb.webpage.C8893_Contact, Running Time : 21 seconds.]
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C5506: Dashboard: Quick Trade – CAD/BTC >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] ========== Login with user: csqa_webtest1 ==========
+   [testng] ========== Login - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Sell CAD, Buy BTC: ==========
+   [testng] ========== Getting Holdings for BTC, Column: Quantity ==========
+   [testng] ========== Holdings for BTC is: 0.00627903 ==========
+   [testng] ========== Getting Holdings for CAD, Column: CAD ==========
+   [testng] ========== Holdings for CAD is: 67.43 ==========
+   [testng] INFO: Enough balance for trade.
+   [testng] ========== Starting Quick Trade: ==========
+   [testng] ========== Selling: CAD, Amount: 0.10000000, for: BTC ==========
+   [testng] Selected Currency: CAD
+   [testng] Selected Currency: BTC
+   [testng] Quoted Amount is: 0.00001164
+   [testng] ========== Quick Trade - Done. ==========
+   [testng] ========== Starting Verify Ledger: [Currency : CAD; Year : ALL; Tab : Quick Trade; Column : TO; Row# : 1; Expected Value : 0.00001164 BTC] ==========
+   [testng] Waiting for Ledger to update...
+   [testng] Actual Value - 1.164E-5 BTC. Apply 10% acceptable range.
+   [testng] ========== Verify Ledger - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Verifying Holdings for CAD, Column: CAD, is: 67.33000000000001 ==========
+   [testng] Actual Holdings - 67.33. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for CAD - Done. ==========
+   [testng] ========== Verifying Holdings for BTC, Column: Quantity, is: 0.00629067 ==========
+   [testng] Actual Holdings - 0.00629067. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for BTC - Done. ==========
+   [testng] ========== Sell BTC, Buy CAD: ==========
+   [testng] ========== Starting Quick Trade: ==========
+   [testng] ========== Selling: BTC, Amount: 0.00001164, for: CAD ==========
+   [testng] Selected Currency: BTC
+   [testng] Selected Currency: CAD
+   [testng] Quoted Amount is: 0.09
+   [testng] ========== Quick Trade - Done. ==========
+   [testng] ========== Starting Verify Ledger: [Currency : BTC; Year : ALL; Tab : Quick Trade; Column : TO; Row# : 1; Expected Value : 0.09 CAD] ==========
+   [testng] Waiting for Ledger to update...
+   [testng] Actual Value - 0.09 CAD. Apply 10% acceptable range.
+   [testng] ========== Verify Ledger - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Verifying Holdings for BTC, Column: Quantity, is: 0.00627903 ==========
+   [testng] Actual Holdings - 0.00627903. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for BTC - Done. ==========
+   [testng] ========== Verifying Holdings for CAD, Column: CAD, is: 67.42000000000002 ==========
+   [testng] Actual Holdings - 67.42. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for CAD - Done. ==========
+   [testng] ========== Log Out with user: csqa_webtest1 ==========
+   [testng] ========== Log Out - Done. ==========
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C5506 (Done): Dashboard: Quick Trade – CAD/BTC >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] Duration: [Class Name : com.cs.ui.test.nb.dashboard.quicktrade.C5506_CadBtc, Running Time : 400 seconds.]
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C8886: Wealth Page - https://coinsquare.com/wealth >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] ========== Two files have same content. - Expected ==========
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C8886 (Done): Wealth Page >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] Duration: [Class Name : com.cs.ui.test.nb.webpage.C8886_WealthPage, Running Time : 20 seconds.]
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C5504: Dashboard: Quick Trade – CAD/DOGE >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] ========== Login with user: csqa_webtest1 ==========
+   [testng] ========== Login - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Sell CAD, Buy DOGE: ==========
+   [testng] ========== Getting Holdings for DOGE, Column: Quantity ==========
+   [testng] ========== Holdings for DOGE is: 5111.0526 ==========
+   [testng] ========== Getting Holdings for CAD, Column: CAD ==========
+   [testng] ========== Holdings for CAD is: 67.42 ==========
+   [testng] INFO: Enough balance for trade.
+   [testng] ========== Starting Quick Trade: ==========
+   [testng] ========== Selling: CAD, Amount: 0.10000000, for: DOGE ==========
+   [testng] Selected Currency: CAD
+   [testng] Selected Currency: DOGE
+   [testng] Quoted Amount is: 30.52398473
+   [testng] ========== Quick Trade - Done. ==========
+   [testng] ========== Starting Verify Ledger: [Currency : CAD; Year : ALL; Tab : Quick Trade; Column : TO; Row# : 1; Expected Value : 30.52398473 DOGE] ==========
+   [testng] Waiting for Ledger to update...
+   [testng] Actual Value - 30.52398473 DOGE. Apply 10% acceptable range.
+   [testng] ========== Verify Ledger - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Verifying Holdings for CAD, Column: CAD, is: 67.32000000000001 ==========
+   [testng] Actual Holdings - 67.31. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for CAD - Done. ==========
+   [testng] ========== Verifying Holdings for DOGE, Column: Quantity, is: 5141.57658473 ==========
+   [testng] Actual Holdings - 5141.5766. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for DOGE - Done. ==========
+   [testng] ========== Sell DOGE, Buy CAD: ==========
+   [testng] ========== Starting Quick Trade: ==========
+   [testng] ========== Selling: DOGE, Amount: 30.52398473, for: CAD ==========
+   [testng] Selected Currency: DOGE
+   [testng] Selected Currency: CAD
+   [testng] Quoted Amount is: 0.09
+   [testng] ========== Quick Trade - Done. ==========
+   [testng] ========== Starting Verify Ledger: [Currency : DOGE; Year : ALL; Tab : Quick Trade; Column : TO; Row# : 1; Expected Value : 0.09 CAD] ==========
+   [testng] Waiting for Ledger to update...
+   [testng] Actual Value - 0.09 CAD. Apply 10% acceptable range.
+   [testng] ========== Verify Ledger - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Verifying Holdings for DOGE, Column: Quantity, is: 5111.0526 ==========
+   [testng] Actual Holdings - 5111.0526. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for DOGE - Done. ==========
+   [testng] ========== Verifying Holdings for CAD, Column: CAD, is: 67.41000000000001 ==========
+   [testng] Actual Holdings - 67.41. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for CAD - Done. ==========
+   [testng] ========== Log Out with user: csqa_webtest1 ==========
+   [testng] ========== Log Out - Done. ==========
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C5504 (Done): Dashboard: Quick Trade – CAD/DOGE >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] Duration: [Class Name : com.cs.ui.test.nb.dashboard.quicktrade.C5504_CadDoge, Running Time : 440 seconds.]
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C5503: Dashboard: Quick Trade – CAD/LTC >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] ========== Login with user: csqa_webtest1 ==========
+   [testng] ========== Login - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Sell CAD, Buy LTC: ==========
+   [testng] ========== Getting Holdings for LTC, Column: Quantity ==========
+   [testng] ========== Holdings for LTC is: 0.24892560 ==========
+   [testng] ========== Getting Holdings for CAD, Column: CAD ==========
+   [testng] ========== Holdings for CAD is: 67.41 ==========
+   [testng] INFO: Enough balance for trade.
+   [testng] ========== Starting Quick Trade: ==========
+   [testng] ========== Selling: CAD, Amount: 0.10000000, for: LTC ==========
+   [testng] Selected Currency: CAD
+   [testng] Selected Currency: LTC
+   [testng] Quoted Amount is: 0.00126682
+   [testng] ========== Quick Trade - Done. ==========
+   [testng] ========== Starting Verify Ledger: [Currency : CAD; Year : ALL; Tab : Quick Trade; Column : TO; Row# : 1; Expected Value : 0.00126682 LTC] ==========
+   [testng] Waiting for Ledger to update...
+   [testng] Actual Value - 0.00126682 LTC. Apply 10% acceptable range.
+   [testng] ========== Verify Ledger - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Verifying Holdings for CAD, Column: CAD, is: 67.31 ==========
+   [testng] Actual Holdings - 67.31. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for CAD - Done. ==========
+   [testng] ========== Verifying Holdings for LTC, Column: Quantity, is: 0.25019242 ==========
+   [testng] Actual Holdings - 0.25019242. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for LTC - Done. ==========
+   [testng] ========== Sell LTC, Buy CAD: ==========
+   [testng] ========== Starting Quick Trade: ==========
+   [testng] ========== Selling: LTC, Amount: 0.00126682, for: CAD ==========
+   [testng] Selected Currency: LTC
+   [testng] Selected Currency: CAD
+   [testng] Quoted Amount is: 0.09
+   [testng] ========== Quick Trade - Done. ==========
+   [testng] ========== Starting Verify Ledger: [Currency : LTC; Year : ALL; Tab : Quick Trade; Column : TO; Row# : 1; Expected Value : 0.09 CAD] ==========
+   [testng] Waiting for Ledger to update...
+   [testng] Actual Value - 0.09 CAD. Apply 10% acceptable range.
+   [testng] ========== Verify Ledger - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Verifying Holdings for LTC, Column: Quantity, is: 0.2489256 ==========
+   [testng] Actual Holdings - 0.2489256. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for LTC - Done. ==========
+   [testng] ========== Verifying Holdings for CAD, Column: CAD, is: 67.4 ==========
+   [testng] Actual Holdings - 67.4. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for CAD - Done. ==========
+   [testng] ========== Log Out with user: csqa_webtest1 ==========
+   [testng] ========== Log Out - Done. ==========
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C5503 (Done): Dashboard: Quick Trade – CAD/LTC >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] Duration: [Class Name : com.cs.ui.test.nb.dashboard.quicktrade.C5503_CadLtc, Running Time : 175 seconds.]
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C5510: Dashboard: Quick Trade – CAD/DASH >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] ========== Login with user: csqa_webtest1 ==========
+   [testng] ========== Login - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Sell CAD, Buy DASH: ==========
+   [testng] ========== Getting Holdings for DASH, Column: Quantity ==========
+   [testng] ========== Holdings for DASH is: 0.04155433 ==========
+   [testng] ========== Getting Holdings for CAD, Column: CAD ==========
+   [testng] ========== Holdings for CAD is: 67.40 ==========
+   [testng] INFO: Enough balance for trade.
+   [testng] ========== Starting Quick Trade: ==========
+   [testng] ========== Selling: CAD, Amount: 0.10000000, for: DASH ==========
+   [testng] Selected Currency: CAD
+   [testng] Selected Currency: DASH
+   [testng] Quoted Amount is: 0.00046012
+   [testng] ========== Quick Trade - Done. ==========
+   [testng] ========== Starting Verify Ledger: [Currency : CAD; Year : ALL; Tab : Quick Trade; Column : TO; Row# : 1; Expected Value : 0.00046012 DASH] ==========
+   [testng] Waiting for Ledger to update...
+   [testng] Actual Value - 4.6012E-4 DASH. Apply 10% acceptable range.
+   [testng] ========== Verify Ledger - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Verifying Holdings for CAD, Column: CAD, is: 67.30000000000001 ==========
+   [testng] Actual Holdings - 67.3. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for CAD - Done. ==========
+   [testng] ========== Verifying Holdings for DASH, Column: Quantity, is: 0.04201445 ==========
+   [testng] Actual Holdings - 0.04201445. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for DASH - Done. ==========
+   [testng] ========== Sell DASH, Buy CAD: ==========
+   [testng] ========== Starting Quick Trade: ==========
+   [testng] ========== Selling: DASH, Amount: 0.00046012, for: CAD ==========
+   [testng] Selected Currency: DASH
+   [testng] Selected Currency: CAD
+   [testng] Quoted Amount is: 0.09
+   [testng] ========== Quick Trade - Done. ==========
+   [testng] ========== Starting Verify Ledger: [Currency : DASH; Year : ALL; Tab : Quick Trade; Column : TO; Row# : 1; Expected Value : 0.09 CAD] ==========
+   [testng] Waiting for Ledger to update...
+   [testng] Actual Value - 0.09 CAD. Apply 10% acceptable range.
+   [testng] ========== Verify Ledger - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Verifying Holdings for DASH, Column: Quantity, is: 0.04155433 ==========
+   [testng] Actual Holdings - 0.04155433. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for DASH - Done. ==========
+   [testng] ========== Verifying Holdings for CAD, Column: CAD, is: 67.39000000000001 ==========
+   [testng] Actual Holdings - 67.39. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for CAD - Done. ==========
+   [testng] ========== Log Out with user: csqa_webtest1 ==========
+   [testng] ========== Log Out - Done. ==========
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C5510 (Done): Dashboard: Quick Trade – CAD/DASH >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] Duration: [Class Name : com.cs.ui.test.nb.dashboard.quicktrade.C5510_CadDash, Running Time : 179 seconds.]
+   [testng]  
+   [testng] <<<<<<<<<<<<<<<<<<<< Test Case C5528: Dashboard: Quick Trade – LTC/ETH >>>>>>>>>>>>>>>>>>>>
+   [testng]  
+   [testng] ========== Login with user: csqa_webtest1 ==========
+   [testng] ========== Login - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Sell LTC, Buy ETH: ==========
+   [testng] ========== Getting Holdings for LTC, Column: Quantity ==========
+   [testng] ========== Holdings for LTC is: 0.24892560 ==========
+   [testng] ========== Getting Holdings for ETH, Column: Quantity ==========
+   [testng] ========== Holdings for ETH is: 0.02943550 ==========
+   [testng] INFO: Enough balance for trade.
+   [testng] ========== Starting Quick Trade: ==========
+   [testng] ========== Selling: LTC, Amount: 0.00100000, for: ETH ==========
+   [testng] Selected Currency: LTC
+   [testng] Selected Currency: ETH
+   [testng] Quoted Amount is: 0.00019065
+   [testng] ========== Quick Trade - Done. ==========
+   [testng] ========== Starting Verify Ledger: [Currency : LTC; Year : ALL; Tab : Quick Trade; Column : TO; Row# : 1; Expected Value : 0.00019065 ETH] ==========
+   [testng] Waiting for Ledger to update...
+   [testng] Actual Value - 1.9065E-4 ETH. Apply 10% acceptable range.
+   [testng] ========== Verify Ledger - Done. ==========
+   [testng] ========== Click Dashboard tab ==========
+   [testng] ========== Verifying Holdings for LTC, Column: Quantity, is: 0.2479256 ==========
+   [testng] Actual Holdings - 0.2479256. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for LTC - Done. ==========
+   [testng] ========== Verifying Holdings for ETH, Column: Quantity, is: 0.02962615 ==========
+   [testng] Actual Holdings - 0.02962615. Apply 10% acceptable range.
+   [testng] ========== Verifying Holdings for ETH - Done. ==========
+   [testng] ========== Sell ETH, Buy LTC: ==========
+   [testng] ========== Starting Quick Trade: ==========
+   [testng] ========== Selling: ETH, Amount: 0.00019065, for: LTC ==========
+   [testng] Selected Currency: ETH
+   [testng] Selected Currency: LTC
+   [testng] Quoted Amount is: 0.00093401
+   [testng] ========== Quick Trade - Done. ==========
+   [testng] ========== Starting Verify Ledger: [Currency : ETH; Year : ALL; Tab : Quick Trade; Column : TO; Row# : 1; Expected Value : 0.00093401 LTC] ==========
+   [testng] Waiting for Ledger to update...
+   [testng] Actual Value - 0.09 CAD. Apply 10% acceptable range.
+   [testng] Duration: [Class Name : com.cs.ui.test.nb.dashboard.quicktrade.C5528_LtcEth, Running Time : 164 seconds.]
+   [testng] 
+   [testng] ===============================================
+   [testng] Suite
+   [testng] Total tests run: 28, Failures: 6, Skips: 0
+   [testng] ===============================================
+   [testng] 
+   [testng] The tests failed.
+testng-execution:  duration 85 minutes 19 seconds
+
+email-report:
+     [echo]  Before SendMail 
+     [java] running com.cs.ks.util.KSSendEmail with default permissions (exit forbidden)
+     [java] Running in same VM Executing 'com.cs.ks.util.KSSendEmail'
+The ' characters around the executable and arguments are
+not part of the command.
+dropping /Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/build from path as it doesn't exist
+     [java] Email sent successfully....
+     [echo]  After sendmail 
+email-report:  duration 7 seconds
+BUILD SUCCESSFUL
+
+BUILD SUCCESSFUL

@@ -1,0 +1,1665 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">28 methods, 6 failed,   22 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cs.ui.test.nb.webpage.C8882_HomePage" hash-for-method="homePageHtml">homePageHtml</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cs.ui.test.nb.dashboard.quicktrade.C5505_CadBch" hash-for-method="quickTradeCadBch">quickTradeCadBch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cs.ui.test.nb.dashboard.quicktrade.C5529_DogeBch" hash-for-method="quickTradeDogeBch">quickTradeDogeBch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cs.ui.test.nb.dashboard.quicktrade.C5528_LtcEth" hash-for-method="quickTradeLtcEth">quickTradeLtcEth</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cs.ui.test.nb.dashboard.quicktrade.percent.C5511_UsdBtc_25Percent" hash-for-method="quickTradeUsdBtc_25Percent">quickTradeUsdBtc_25Percent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cs.ui.test.nb.dashboard.quicktrade.percent.C5517_UsdEth_50Percent" hash-for-method="quickTradeUsdEth_50Percent">quickTradeUsdEth_50Percent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cs.ui.test.nb.webpage.C8895_About" hash-for-method="aboutPageHtml">aboutPageHtml</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cs.ui.test.nb.webpage.C8899_AMLPolicy" hash-for-method="amlPolicyHtml">amlPolicyHtml</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cs.ui.test.nb.webpage.C8893_Contact" hash-for-method="contactPageHtml">contactPageHtml</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cs.ui.test.nb.webpage.C8894_FundingOptions" hash-for-method="fundingOptionsHtml">fundingOptionsHtml</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cs.ui.test.nb.webpage.C8887_HowItWorks" hash-for-method="howItWorksHtml">howItWorksHtml</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cs.ui.test.nb.dashboard.C5479_loginLogout" hash-for-method="loginLogout">loginLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cs.ui.test.nb.webpage.C8898_PrivacyPolicy" hash-for-method="privacyPolicyHtml">privacyPolicyHtml</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cs.ui.test.nb.dashboard.quicktrade.C5523_BtcBch" hash-for-method="quickTradeBtcBch">quickTradeBtcBch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cs.ui.test.nb.dashboard.quicktrade.C5525_BtcDash" hash-for-method="quickTradeBtcDash">quickTradeBtcDash</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cs.ui.test.nb.dashboard.quicktrade.C5524_BtcDoge" hash-for-method="quickTradeBtcDoge">quickTradeBtcDoge</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cs.ui.test.nb.dashboard.quicktrade.C5522_BtcEth" hash-for-method="quickTradeBtcEth">quickTradeBtcEth</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cs.ui.test.nb.dashboard.quicktrade.C5508_BtcLtc" hash-for-method="quickTradeBtcLtc">quickTradeBtcLtc</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cs.ui.test.nb.dashboard.quicktrade.C5506_CadBtc" hash-for-method="quickTradeCadBtc">quickTradeCadBtc</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cs.ui.test.nb.dashboard.quicktrade.C5510_CadDash" hash-for-method="quickTradeCadDash">quickTradeCadDash</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cs.ui.test.nb.dashboard.quicktrade.C5504_CadDoge" hash-for-method="quickTradeCadDoge">quickTradeCadDoge</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cs.ui.test.nb.dashboard.quicktrade.C5502_CadEth" hash-for-method="quickTradeCadEth">quickTradeCadEth</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cs.ui.test.nb.dashboard.quicktrade.C5503_CadLtc" hash-for-method="quickTradeCadLtc">quickTradeCadLtc</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cs.ui.test.nb.dashboard.quicktrade.C5507_CadUsd" hash-for-method="quickTradeCadUsd">quickTradeCadUsd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cs.ui.test.nb.dashboard.quicktrade.percent.C5518_UsdLtc_100Percent" hash-for-method="quickTradeUsdLTC_100Percent">quickTradeUsdLTC_100Percent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cs.ui.test.nb.webpage.C8897_TermsAndConditions" hash-for-method="termsPageHtml">termsPageHtml</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cs.ui.test.nb.webpage.C8896_TradingFees" hash-for-method="tradingFeesHtml">tradingFeesHtml</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cs.ui.test.nb.webpage.C8886_WealthPage" hash-for-method="wealthPageHtml">wealthPageHtml</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5528_LtcEth</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="quickTradeLtcEth">
+                  </a> <!-- quickTradeLtcEth -->
+                  <span class="method-name">quickTradeLtcEth</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.cs.ui.feature.Transactions.verifyLedger(Transactions.java:229)
+	at com.cs.ui.test.nb.dashboard.quicktrade.C5528_LtcEth.quickTradeLtcEth(C5528_LtcEth.java:84)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.cs.ui.test.nb.dashboard.quicktrade.percent.C5511_UsdBtc_25Percent</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="quickTradeUsdBtc_25Percent">
+                  </a> <!-- quickTradeUsdBtc_25Percent -->
+                  <span class="method-name">quickTradeUsdBtc_25Percent</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [1.08] but found [1.0825]
+	at com.cs.ui.feature.QuickTrade.verifyPercentAmt(QuickTrade.java:248)
+	at com.cs.ui.feature.QuickTrade.quickTradeByPercentReQuote(QuickTrade.java:187)
+	at com.cs.ui.test.nb.dashboard.quicktrade.percent.C5511_UsdBtc_25Percent.quickTradeUsdBtc_25Percent(C5511_UsdBtc_25Percent.java:52)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5529_DogeBch</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="quickTradeDogeBch">
+                  </a> <!-- quickTradeDogeBch -->
+                  <span class="method-name">quickTradeDogeBch</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.cs.ui.feature.Transactions.verifyLedger(Transactions.java:229)
+	at com.cs.ui.test.nb.dashboard.quicktrade.C5529_DogeBch.quickTradeDogeBch(C5529_DogeBch.java:84)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5505_CadBch</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="quickTradeCadBch">
+                  </a> <!-- quickTradeCadBch -->
+                  <span class="method-name">quickTradeCadBch</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.cs.ui.util.WebActionUtil.selectDropdown(WebActionUtil.java:129)
+	at com.cs.ui.feature.QuickTrade.quickTradeReturnQuote(QuickTrade.java:128)
+	at com.cs.ui.test.nb.dashboard.quicktrade.C5505_CadBch.quickTradeCadBch(C5505_CadBch.java:84)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.cs.ui.test.nb.webpage.C8882_HomePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageHtml">
+                  </a> <!-- homePageHtml -->
+                  <span class="method-name">homePageHtml</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.cs.ks.util.KSU.writeHtmlToFile(KSU.java:88)
+	at com.cs.ui.test.nb.webpage.C8882_HomePage.homePageHtml(C8882_HomePage.java:53)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.cs.ui.test.nb.dashboard.quicktrade.percent.C5517_UsdEth_50Percent</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="quickTradeUsdEth_50Percent">
+                  </a> <!-- quickTradeUsdEth_50Percent -->
+                  <span class="method-name">quickTradeUsdEth_50Percent</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [2.360] but found [2.36]
+	at com.cs.ui.feature.QuickTrade.verifyPercentAmt(QuickTrade.java:248)
+	at com.cs.ui.feature.QuickTrade.quickTradeByPercentReQuote(QuickTrade.java:187)
+	at com.cs.ui.test.nb.dashboard.quicktrade.percent.C5517_UsdEth_50Percent.quickTradeUsdEth_50Percent(C5517_UsdEth_50Percent.java:52)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cs.ui.test.nb.webpage.C8895_About</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="aboutPageHtml">
+                  </a> <!-- aboutPageHtml -->
+                  <span class="method-name">aboutPageHtml</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cs.ui.test.nb.dashboard.quicktrade.percent.C5518_UsdLtc_100Percent</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="quickTradeUsdLTC_100Percent">
+                  </a> <!-- quickTradeUsdLTC_100Percent -->
+                  <span class="method-name">quickTradeUsdLTC_100Percent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5525_BtcDash</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="quickTradeBtcDash">
+                  </a> <!-- quickTradeBtcDash -->
+                  <span class="method-name">quickTradeBtcDash</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cs.ui.test.nb.webpage.C8893_Contact</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactPageHtml">
+                  </a> <!-- contactPageHtml -->
+                  <span class="method-name">contactPageHtml</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5502_CadEth</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="quickTradeCadEth">
+                  </a> <!-- quickTradeCadEth -->
+                  <span class="method-name">quickTradeCadEth</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5508_BtcLtc</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="quickTradeBtcLtc">
+                  </a> <!-- quickTradeBtcLtc -->
+                  <span class="method-name">quickTradeBtcLtc</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5504_CadDoge</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="quickTradeCadDoge">
+                  </a> <!-- quickTradeCadDoge -->
+                  <span class="method-name">quickTradeCadDoge</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5510_CadDash</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="quickTradeCadDash">
+                  </a> <!-- quickTradeCadDash -->
+                  <span class="method-name">quickTradeCadDash</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cs.ui.test.nb.webpage.C8887_HowItWorks</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="howItWorksHtml">
+                  </a> <!-- howItWorksHtml -->
+                  <span class="method-name">howItWorksHtml</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5506_CadBtc</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="quickTradeCadBtc">
+                  </a> <!-- quickTradeCadBtc -->
+                  <span class="method-name">quickTradeCadBtc</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5524_BtcDoge</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="quickTradeBtcDoge">
+                  </a> <!-- quickTradeBtcDoge -->
+                  <span class="method-name">quickTradeBtcDoge</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5503_CadLtc</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="quickTradeCadLtc">
+                  </a> <!-- quickTradeCadLtc -->
+                  <span class="method-name">quickTradeCadLtc</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cs.ui.test.nb.webpage.C8898_PrivacyPolicy</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="privacyPolicyHtml">
+                  </a> <!-- privacyPolicyHtml -->
+                  <span class="method-name">privacyPolicyHtml</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cs.ui.test.nb.webpage.C8896_TradingFees</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tradingFeesHtml">
+                  </a> <!-- tradingFeesHtml -->
+                  <span class="method-name">tradingFeesHtml</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5507_CadUsd</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="quickTradeCadUsd">
+                  </a> <!-- quickTradeCadUsd -->
+                  <span class="method-name">quickTradeCadUsd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cs.ui.test.nb.webpage.C8894_FundingOptions</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fundingOptionsHtml">
+                  </a> <!-- fundingOptionsHtml -->
+                  <span class="method-name">fundingOptionsHtml</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cs.ui.test.nb.webpage.C8886_WealthPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="wealthPageHtml">
+                  </a> <!-- wealthPageHtml -->
+                  <span class="method-name">wealthPageHtml</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cs.ui.test.nb.webpage.C8897_TermsAndConditions</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="termsPageHtml">
+                  </a> <!-- termsPageHtml -->
+                  <span class="method-name">termsPageHtml</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5523_BtcBch</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="quickTradeBtcBch">
+                  </a> <!-- quickTradeBtcBch -->
+                  <span class="method-name">quickTradeBtcBch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cs.ui.test.nb.dashboard.C5479_loginLogout</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginLogout">
+                  </a> <!-- loginLogout -->
+                  <span class="method-name">loginLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cs.ui.test.nb.webpage.C8899_AMLPolicy</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="amlPolicyHtml">
+                  </a> <!-- amlPolicyHtml -->
+                  <span class="method-name">amlPolicyHtml</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5522_BtcEth</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="quickTradeBtcEth">
+                  </a> <!-- quickTradeBtcEth -->
+                  <span class="method-name">quickTradeBtcEth</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/kevinsmac/Documents/Kevin/eclipse-workplace/coinsquare-qa-frontend/coinsquare-qa-frontend/CoinsquareWebAutomation/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;-1&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.cs.ui.report.NBReportListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Coinsquare NB Test&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.cs.ui.test.nb.dashboard&quot;/&gt;
+      &lt;package name=&quot;com.cs.ui.test.nb.dashboard.quicktrade&quot;/&gt;
+      &lt;package name=&quot;com.cs.ui.test.nb.dashboard.quicktrade.percent&quot;/&gt;
+      &lt;package name=&quot;com.cs.ui.test.nb.webpage&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.dashboard.C5479_loginLogout&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.dashboard.C5479_loginLogout&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.dashboard.quicktrade.C5529_DogeBch&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.dashboard.quicktrade.C5505_CadBch&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.dashboard.quicktrade.C5507_CadUsd&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.dashboard.quicktrade.C5508_BtcLtc&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.dashboard.quicktrade.C5525_BtcDash&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.dashboard.quicktrade.C5522_BtcEth&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.dashboard.quicktrade.C5502_CadEth&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.dashboard.quicktrade.C5523_BtcBch&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.dashboard.quicktrade.C5524_BtcDoge&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.dashboard.quicktrade.C5506_CadBtc&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.dashboard.quicktrade.C5504_CadDoge&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.dashboard.quicktrade.C5503_CadLtc&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.dashboard.quicktrade.C5510_CadDash&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.dashboard.quicktrade.C5528_LtcEth&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.dashboard.quicktrade.C5529_DogeBch&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.dashboard.quicktrade.C5505_CadBch&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.dashboard.quicktrade.C5507_CadUsd&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.dashboard.quicktrade.C5508_BtcLtc&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.dashboard.quicktrade.C5525_BtcDash&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.dashboard.quicktrade.C5522_BtcEth&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.dashboard.quicktrade.C5502_CadEth&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.dashboard.quicktrade.C5523_BtcBch&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.dashboard.quicktrade.C5524_BtcDoge&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.dashboard.quicktrade.C5506_CadBtc&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.dashboard.quicktrade.C5504_CadDoge&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.dashboard.quicktrade.C5503_CadLtc&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.dashboard.quicktrade.C5510_CadDash&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.dashboard.quicktrade.C5528_LtcEth&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.dashboard.quicktrade.percent.C5517_UsdEth_50Percent&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.dashboard.quicktrade.percent.C5518_UsdLtc_100Percent&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.dashboard.quicktrade.percent.C5511_UsdBtc_25Percent&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.dashboard.quicktrade.percent.C5517_UsdEth_50Percent&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.dashboard.quicktrade.percent.C5518_UsdLtc_100Percent&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.dashboard.quicktrade.percent.C5511_UsdBtc_25Percent&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.webpage.C8897_TermsAndConditions&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.webpage.C8882_HomePage&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.webpage.C8898_PrivacyPolicy&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.webpage.C8896_TradingFees&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.webpage.C8887_HowItWorks&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.webpage.C8899_AMLPolicy&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.webpage.C8894_FundingOptions&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.webpage.C8895_About&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.webpage.C8893_Contact&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.webpage.C8886_WealthPage&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.webpage.C8897_TermsAndConditions&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.webpage.C8882_HomePage&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.webpage.C8898_PrivacyPolicy&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.webpage.C8896_TradingFees&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.webpage.C8887_HowItWorks&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.webpage.C8899_AMLPolicy&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.webpage.C8894_FundingOptions&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.webpage.C8895_About&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.webpage.C8893_Contact&quot;/&gt;
+      &lt;class name=&quot;com.cs.ui.test.nb.webpage.C8886_WealthPage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Coinsquare NB Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Coinsquare NB Test (56 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(28);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'quickTradeBtcDoge')
+data.setCell(0, 2, 'com.cs.ui.test.nb.dashboard.quicktrade.C5524_BtcDoge')
+data.setCell(0, 3, 483599);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'quickTradeBtcDash')
+data.setCell(1, 2, 'com.cs.ui.test.nb.dashboard.quicktrade.C5525_BtcDash')
+data.setCell(1, 3, 458089);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'quickTradeCadDoge')
+data.setCell(2, 2, 'com.cs.ui.test.nb.dashboard.quicktrade.C5504_CadDoge')
+data.setCell(2, 3, 440395);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'quickTradeBtcBch')
+data.setCell(3, 2, 'com.cs.ui.test.nb.dashboard.quicktrade.C5523_BtcBch')
+data.setCell(3, 3, 429756);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'quickTradeCadEth')
+data.setCell(4, 2, 'com.cs.ui.test.nb.dashboard.quicktrade.C5502_CadEth')
+data.setCell(4, 3, 425939);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'quickTradeBtcEth')
+data.setCell(5, 2, 'com.cs.ui.test.nb.dashboard.quicktrade.C5522_BtcEth')
+data.setCell(5, 3, 423300);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'quickTradeCadBch')
+data.setCell(6, 2, 'com.cs.ui.test.nb.dashboard.quicktrade.C5505_CadBch')
+data.setCell(6, 3, 420074);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'quickTradeCadBtc')
+data.setCell(7, 2, 'com.cs.ui.test.nb.dashboard.quicktrade.C5506_CadBtc')
+data.setCell(7, 3, 400196);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'quickTradeBtcLtc')
+data.setCell(8, 2, 'com.cs.ui.test.nb.dashboard.quicktrade.C5508_BtcLtc')
+data.setCell(8, 3, 297338);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'quickTradeUsdLTC_100Percent')
+data.setCell(9, 2, 'com.cs.ui.test.nb.dashboard.quicktrade.percent.C5518_UsdLtc_100Percent')
+data.setCell(9, 3, 206376);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'quickTradeCadUsd')
+data.setCell(10, 2, 'com.cs.ui.test.nb.dashboard.quicktrade.C5507_CadUsd')
+data.setCell(10, 3, 191517);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'quickTradeDogeBch')
+data.setCell(11, 2, 'com.cs.ui.test.nb.dashboard.quicktrade.C5529_DogeBch')
+data.setCell(11, 3, 185696);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'quickTradeCadDash')
+data.setCell(12, 2, 'com.cs.ui.test.nb.dashboard.quicktrade.C5510_CadDash')
+data.setCell(12, 3, 179600);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'quickTradeCadLtc')
+data.setCell(13, 2, 'com.cs.ui.test.nb.dashboard.quicktrade.C5503_CadLtc')
+data.setCell(13, 3, 175231);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'quickTradeLtcEth')
+data.setCell(14, 2, 'com.cs.ui.test.nb.dashboard.quicktrade.C5528_LtcEth')
+data.setCell(14, 3, 164038);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'aboutPageHtml')
+data.setCell(15, 2, 'com.cs.ui.test.nb.webpage.C8895_About')
+data.setCell(15, 3, 36109);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'quickTradeUsdEth_50Percent')
+data.setCell(16, 2, 'com.cs.ui.test.nb.dashboard.quicktrade.percent.C5517_UsdEth_50Percent')
+data.setCell(16, 3, 34427);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'quickTradeUsdBtc_25Percent')
+data.setCell(17, 2, 'com.cs.ui.test.nb.dashboard.quicktrade.percent.C5511_UsdBtc_25Percent')
+data.setCell(17, 3, 30144);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'contactPageHtml')
+data.setCell(18, 2, 'com.cs.ui.test.nb.webpage.C8893_Contact')
+data.setCell(18, 3, 21022);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'wealthPageHtml')
+data.setCell(19, 2, 'com.cs.ui.test.nb.webpage.C8886_WealthPage')
+data.setCell(19, 3, 20376);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'tradingFeesHtml')
+data.setCell(20, 2, 'com.cs.ui.test.nb.webpage.C8896_TradingFees')
+data.setCell(20, 3, 20335);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'loginLogout')
+data.setCell(21, 2, 'com.cs.ui.test.nb.dashboard.C5479_loginLogout')
+data.setCell(21, 3, 18764);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'amlPolicyHtml')
+data.setCell(22, 2, 'com.cs.ui.test.nb.webpage.C8899_AMLPolicy')
+data.setCell(22, 3, 12471);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'homePageHtml')
+data.setCell(23, 2, 'com.cs.ui.test.nb.webpage.C8882_HomePage')
+data.setCell(23, 3, 8670);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'fundingOptionsHtml')
+data.setCell(24, 2, 'com.cs.ui.test.nb.webpage.C8894_FundingOptions')
+data.setCell(24, 3, 8668);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'termsPageHtml')
+data.setCell(25, 2, 'com.cs.ui.test.nb.webpage.C8897_TermsAndConditions')
+data.setCell(25, 3, 5693);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'privacyPolicyHtml')
+data.setCell(26, 2, 'com.cs.ui.test.nb.webpage.C8898_PrivacyPolicy')
+data.setCell(26, 3, 5153);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'howItWorksHtml')
+data.setCell(27, 2, 'com.cs.ui.test.nb.webpage.C8887_HowItWorks')
+data.setCell(27, 3, 4973);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 hours</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">54 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.cs.ui.test.nb.dashboard.quicktrade.percent.C5518_UsdLtc_100Percent</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialiseBrowser</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5525_BtcDash</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialiseBrowser</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5529_DogeBch</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialiseBrowser</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5502_CadEth</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialiseBrowser</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.cs.ui.test.nb.webpage.C8882_HomePage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialiseBrowser</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5504_CadDoge</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialiseBrowser</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5510_CadDash</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialiseBrowser</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.cs.ui.test.nb.webpage.C8887_HowItWorks</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialiseBrowser</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5506_CadBtc</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialiseBrowser</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5524_BtcDoge</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialiseBrowser</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5503_CadLtc</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialiseBrowser</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.cs.ui.test.nb.webpage.C8896_TradingFees</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialiseBrowser</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5507_CadUsd</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialiseBrowser</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.cs.ui.test.nb.dashboard.quicktrade.percent.C5511_UsdBtc_25Percent</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialiseBrowser</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.cs.ui.test.nb.webpage.C8895_About</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialiseBrowser</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.cs.ui.test.nb.webpage.C8893_Contact</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialiseBrowser</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5505_CadBch</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialiseBrowser</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.cs.ui.test.nb.dashboard.quicktrade.percent.C5517_UsdEth_50Percent</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialiseBrowser</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5508_BtcLtc</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialiseBrowser</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5528_LtcEth</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialiseBrowser</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.cs.ui.test.nb.webpage.C8898_PrivacyPolicy</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialiseBrowser</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.cs.ui.test.nb.webpage.C8894_FundingOptions</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialiseBrowser</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5523_BtcBch</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialiseBrowser</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.cs.ui.test.nb.webpage.C8897_TermsAndConditions</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialiseBrowser</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.cs.ui.test.nb.webpage.C8886_WealthPage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialiseBrowser</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.cs.ui.test.nb.webpage.C8899_AMLPolicy</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialiseBrowser</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5522_BtcEth</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialiseBrowser</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cs.ui.test.nb.dashboard.C5479_loginLogout</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initialiseBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">5077 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginLogout</span>
+                <span class="method-start">5109 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">23875 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5529_DogeBch</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">23878 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">quickTradeDogeBch</span>
+                <span class="method-start">23879 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">209580 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cs.ui.test.nb.dashboard.quicktrade.percent.C5517_UsdEth_50Percent</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">209583 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">quickTradeUsdEth_50Percent</span>
+                <span class="method-start">209584 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">244011 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cs.ui.test.nb.webpage.C8897_TermsAndConditions</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">244014 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">termsPageHtml</span>
+                <span class="method-start">244015 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">249708 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5505_CadBch</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">249709 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">quickTradeCadBch</span>
+                <span class="method-start">249710 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">669787 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cs.ui.test.nb.dashboard.quicktrade.percent.C5518_UsdLtc_100Percent</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">669792 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">quickTradeUsdLTC_100Percent</span>
+                <span class="method-start">669793 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">876172 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cs.ui.test.nb.webpage.C8882_HomePage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">876175 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">homePageHtml</span>
+                <span class="method-start">876176 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">884846 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5507_CadUsd</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">884847 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">quickTradeCadUsd</span>
+                <span class="method-start">884847 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">1076365 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cs.ui.test.nb.dashboard.quicktrade.percent.C5511_UsdBtc_25Percent</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">1076365 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">quickTradeUsdBtc_25Percent</span>
+                <span class="method-start">1076366 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">1106511 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cs.ui.test.nb.webpage.C8898_PrivacyPolicy</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">1106511 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">privacyPolicyHtml</span>
+                <span class="method-start">1106512 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">1111665 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5508_BtcLtc</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">1111665 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">quickTradeBtcLtc</span>
+                <span class="method-start">1111666 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">1409004 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cs.ui.test.nb.webpage.C8896_TradingFees</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">1409005 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">tradingFeesHtml</span>
+                <span class="method-start">1409005 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">1429340 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5525_BtcDash</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">1429340 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">quickTradeBtcDash</span>
+                <span class="method-start">1429341 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">1887431 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cs.ui.test.nb.webpage.C8887_HowItWorks</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">1887433 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">howItWorksHtml</span>
+                <span class="method-start">1887434 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">1892408 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5522_BtcEth</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">1892408 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">quickTradeBtcEth</span>
+                <span class="method-start">1892408 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">2315708 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cs.ui.test.nb.webpage.C8899_AMLPolicy</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">2315708 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">amlPolicyHtml</span>
+                <span class="method-start">2315712 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">2328183 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5502_CadEth</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">2328184 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">quickTradeCadEth</span>
+                <span class="method-start">2328184 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">2754125 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cs.ui.test.nb.webpage.C8894_FundingOptions</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">2754126 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">fundingOptionsHtml</span>
+                <span class="method-start">2754126 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">2762795 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5523_BtcBch</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">2762795 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">quickTradeBtcBch</span>
+                <span class="method-start">2762795 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">3192552 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cs.ui.test.nb.webpage.C8895_About</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">3192553 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">aboutPageHtml</span>
+                <span class="method-start">3192553 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">3228662 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5524_BtcDoge</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">3228663 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">quickTradeBtcDoge</span>
+                <span class="method-start">3228663 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">3712264 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cs.ui.test.nb.webpage.C8893_Contact</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">3712267 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">contactPageHtml</span>
+                <span class="method-start">3712268 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">3733290 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5506_CadBtc</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">3733290 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">quickTradeCadBtc</span>
+                <span class="method-start">3733291 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">4133488 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cs.ui.test.nb.webpage.C8886_WealthPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">4133488 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">wealthPageHtml</span>
+                <span class="method-start">4133488 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">4153864 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5504_CadDoge</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">4153864 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">quickTradeCadDoge</span>
+                <span class="method-start">4153864 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">4594261 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5503_CadLtc</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">4594263 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">quickTradeCadLtc</span>
+                <span class="method-start">4594264 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">4769497 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5510_CadDash</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">4769499 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">quickTradeCadDash</span>
+                <span class="method-start">4769499 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">4949105 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cs.ui.test.nb.dashboard.quicktrade.C5528_LtcEth</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">4949111 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">quickTradeLtcEth</span>
+                <span class="method-start">4949112 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">5113153 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cs.ui.test.nb.dashboard.C5479_loginLogout</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">5113156 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

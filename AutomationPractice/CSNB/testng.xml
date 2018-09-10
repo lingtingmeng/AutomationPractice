@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<!-- <listener class-name="com.cs.ui.report.ExtReportListener" />  -->
+		<listener class-name="com.cs.ui.report.NBReportListener" />
+	</listeners>
+
+	<!--
+	<test thread-count="5" name="Coinsquare Smoke Test">
+	  <classes>
+	    	<class name="com.cs.ui.test.smoke.C5479_loginLogout"/>
+	    	<class name="com.cs.ui.test.smoke.C5483_quickTradeCadBtc"/>
+	    	<class name="com.cs.ui.test.smoke.C5484_quickTradeCadUsd"/>
+	    	<class name="com.cs.ui.test.smoke.C5485_quickTradeBtcLtc"/>
+	  </classes>
+	</test> 
+	
+	 Test 
+	
+	<test thread-count="5" name="Coinsquare NB Test">
+		<classes>
+	    	<class name="com.cs.ui.test.nb.C5506"/>
+	    	<class name="com.cs.ui.test.nb.C5507"/>
+	  </classes>
+	</test> 
+	
+	
+	<test name="Coinsquare Smoke Test">
+        <packages>
+            <package name="com.cs.ui.test.smoke"/>
+        </packages>
+    </test>
+	
+	<test thread-count="5" name="Coinsquare NB Test">
+	  <classes>
+	    	<class name="com.cs.ui.test.nb.dashboard.quicktrade.C5506_CadBtc"/>
+	  </classes>
+	</test> 
+	-->
+	
+	<test name="Coinsquare NB Test">
+        <packages>
+            <package name="com.cs.ui.test.nb.dashboard"/>
+            <package name="com.cs.ui.test.nb.dashboard.quicktrade"/>
+            <package name="com.cs.ui.test.nb.dashboard.quicktrade.percent"/>
+            <package name="com.cs.ui.test.nb.webpage"/>
+        <!--     <package name="com.cs.ui.test.nb.webpage.tmp"/>   -->
+        </packages>
+    </test>
+	
+</suite> <!-- Suite -->

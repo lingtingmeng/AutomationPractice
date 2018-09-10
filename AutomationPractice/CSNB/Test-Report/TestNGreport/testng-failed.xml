@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.cs.ui.report.NBReportListener"/>
+  </listeners>
+  <test name="Coinsquare NB Test(failed)">
+    <classes>
+      <class name="com.cs.ui.test.nb.dashboard.quicktrade.C5528_LtcEth">
+        <methods>
+          <include name="initialiseBrowser"/>
+          <include name="afterClass"/>
+          <include name="quickTradeLtcEth"/>
+          <include name="beforeClass"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.cs.ui.test.nb.dashboard.quicktrade.C5528_LtcEth -->
+      <class name="com.cs.ui.test.nb.dashboard.quicktrade.percent.C5511_UsdBtc_25Percent">
+        <methods>
+          <include name="initialiseBrowser"/>
+          <include name="afterClass"/>
+          <include name="quickTradeUsdBtc_25Percent"/>
+          <include name="beforeClass"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.cs.ui.test.nb.dashboard.quicktrade.percent.C5511_UsdBtc_25Percent -->
+      <class name="com.cs.ui.test.nb.dashboard.quicktrade.C5529_DogeBch">
+        <methods>
+          <include name="initialiseBrowser"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="quickTradeDogeBch"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.cs.ui.test.nb.dashboard.quicktrade.C5529_DogeBch -->
+      <class name="com.cs.ui.test.nb.dashboard.quicktrade.C5505_CadBch">
+        <methods>
+          <include name="initialiseBrowser"/>
+          <include name="afterClass"/>
+          <include name="quickTradeCadBch"/>
+          <include name="beforeClass"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.cs.ui.test.nb.dashboard.quicktrade.C5505_CadBch -->
+      <class name="com.cs.ui.test.nb.dashboard.quicktrade.percent.C5517_UsdEth_50Percent">
+        <methods>
+          <include name="initialiseBrowser"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="quickTradeUsdEth_50Percent"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.cs.ui.test.nb.dashboard.quicktrade.percent.C5517_UsdEth_50Percent -->
+      <class name="com.cs.ui.test.nb.webpage.C8882_HomePage">
+        <methods>
+          <include name="initialiseBrowser"/>
+          <include name="afterClass"/>
+          <include name="homePageHtml"/>
+          <include name="beforeClass"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.cs.ui.test.nb.webpage.C8882_HomePage -->
+    </classes>
+  </test> <!-- Coinsquare NB Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
